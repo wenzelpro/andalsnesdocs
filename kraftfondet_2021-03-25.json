@@ -1,0 +1,110 @@
+[
+  {
+    "sak": {
+      "søker": "",
+      "type": "Søknadsrunde for kommunal covid-kompensasjonsordning til lokale virksomheter",
+      "dato": "2021-03-25",
+      "referanse": "PS-11/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Rauma kommune skal fordele midler fra statens kompensasjonsordning til lokale virksomheter som er hardt rammet av smitteverntiltak. Ordningen skal sørge for at kommunale næringsaktører får økonomisk støtte for tapt omsetning og ekstra kostnader, og skape en forutsigbar søknadsrunde med gitte kriterier."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "684 233 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "684 233 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Statlig tildeling til kompensasjonsordning for lokale virksomheter"
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo at det skulle settes kriterier for fordelingen av statens midler. Midlene på totalt 684 233 kroner skulle gis som bagatellmessig statsstøtte til lokale virksomheter som kan dokumentere tap og ekstra kostnader som følge av pandemien. Søkerne måtte være registrert i kommunen, søknadsfristen settes til 28.04.2021 og fordelingen skulle skje den 11.05.2021",
+      "vedtak": "Kraftfondet vedtok enstemmig kriterier for kommunal kompensasjonsordning: bare virksomheter registrert i Rauma kommune kan søke, søknadene behandles som bagatellmessig støtte etter statstøttereglene, klubber og foreninger faller utenfor, og søker må dokumentere tap som følge av smitteverntiltak. Informasjonen gjøres offentlig. Det ble vedtatt at fordelingen av de 684 233 kronene gjennomføres i henhold til disse kriteriene"
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Norsk Tindesenter AS",
+      "type": "Søknad om støtte til prosjektet «Gjesten i sentrum»",
+      "dato": "2021-03-25",
+      "referanse": "PS-12/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Prosjektet «Gjesten i sentrum» skal forbedre gjesteopplevelsen i Romsdalen ved å holde sommeråpent besøkssenter med bemanning som kan gi informasjon om attraksjoner, tilbud og aktiviteter. Ved å forbedre køavviklingen og gi opplæring i vertskapsrollen skal tiltaket stimulere til økt handel og opphold i lokalområdet."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "30 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "60 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Ekstra bemanning, husleie ved Tindesenteret, opplæring, leie av telt/elbil og materiell/uniform"
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte at Norsk Tindesenter AS innvilges et bedriftsrettet tilskudd på 60 000 kroner, noe som utgjør 30 % av kostnadsrammen, til gjennomføring av prosjektet «Gjesten i sentrum». Begrunnelsen var at prosjektet støtter opp om verdiskaping i reiselivet ved å gjøre informasjon lettere tilgjengelig, bedre vertskapskompetansen og redusere køproblemer.",
+      "vedtak": "Kraftfondet vedtok enstemmig å bevilge Norsk Tindesenter AS et bedriftsrettet tilskudd på 60 000 kroner til prosjektet «Gjesten i sentrum», med arbeidsfrist 31.12.2021."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Nordveggen AS",
+      "type": "Søknad om støtte til prosjektet «Kompani Lauritzen»",
+      "dato": "2021-03-25",
+      "referanse": "PS-13/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Nordveggen AS søker om midler for å sikre at tredje sesong av TV-serien «Kompani Lauritzen» spilles inn i Romsdalen. Serien har gitt stor synlighet for regionen, og prosessen med å tilrettelegge for filmingen involverer lokale aktører som gir gunstige priser og bidrar med ressurser."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Tilskudd for å sikre innspillingen av TV-serien Kompani Lauritzen med lokale aktører"
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte at Nordveggen AS gis et investeringstilskudd på 200 000 kroner for å bidra til at sesong 3 av TV-serien «Kompani Lauritzen» filmes i Romsdalen. Bakgrunnen var at serien gir stor markedsføring for regionen og at regionale partnere allerede har bidratt med 600 000 kroner gjennom GassROR.",
+      "vedtak": "Kraftfondet vedtok enstemmig å innvilge Nordveggen AS et investeringstilskudd på 200 000 kroner med arbeidsfrist 31.12.2021."
+    },
+    "stemmegivning": "Enstemmig"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "sak": {
+      "søker": "Norsk Tindesenter Eiendom AS",
+      "type": "Søknad om tilskudd til tiltbar kilterboard",
+      "dato": "2025-02-10",
+      "referanse": "PS-6/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Norsk Tindesenter Eiendom AS vil installere en tiltbar kilterboard‑klatrevegg i klatrehallen. Den justerbare veggen skal gi ny og variert klatretrening, tiltrekke flere gjester og stimulere barne‑ og ungdomsmiljøet. Prosjektet skal bidra til økt omsetning for Norsk Tindesenter, sikre arbeidsplasser og styrke folkehelsen."
+    },
+    "budsjett": {
+      "punkter": [
+        {"tittel": "Totale kostnader", "verdi": "621 000 kroner"},
+        {"tittel": "Egeninnsats", "verdi": "166 000 kroner"},
+        {"tittel": "Søknadssum", "verdi": "170 000 kroner"},
+        {"tittel": "Beskrivelse", "verdi": "Snekkerarbeid, ramme, tjukkas, klatretak, lys og styringssystem til kilterboard"}
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo et investeringstilskudd på 170 000 kroner (37 % av en godkjent kostnadsramme på 455 000 kroner) med krav om revidert prosjektregnskap. Begrunnelsen var at kilterboardet vil øke hallens attraktivitet, skape positiv verdiskaping og ha liten klimabelastning.",
+      "vedtak": "Kraftfondet innvilget 170 000 kroner i investeringstilskudd (37 % av kostnadsrammen) til kilterboardet. Tilskuddet utbetales når et attestert prosjektregnskap foreligger."
+    },
+    "stemmegivning": "Enstemmig vedtatt"
+  },
+  {
+    "sak": {
+      "søker": "Verma Nærbutikk AS",
+      "type": "Søknad om tilskudd til elektroniske hylleetiketter og nytt kjøleskap",
+      "dato": "2025-02-10",
+      "referanse": "PS-7/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Verma Nærbutikk vil installere elektroniske hylleetiketter i butikken og erstatte et gammelt åpent kjøleskap med et energieffektivt, lukket skap. Elektroniske etiketter skal spare tid ved prisendringer, hindre feilprising og gi kundene bedre oversikt. Det nye kjøleskapet skal redusere energiforbruket og matsvinn."
+    },
+    "budsjett": {
+      "punkter": [
+        {"tittel": "Totale kostnader", "verdi": "428 798 kroner"},
+        {"tittel": "Egeninnsats", "verdi": "798 kroner"},
+        {"tittel": "Søknadssum", "verdi": "106 000 kroner"},
+        {"tittel": "Beskrivelse", "verdi": "Elektroniske hylleetiketter, nytt kjøleskap med dører, installasjon og mindre dugnadsarbeid"}
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte et investeringstilskudd på 106 000 kroner, tilsvarende 25 % av godkjent kostnadsramme på 428 798 kroner, med krav om prosjektregnskap innen 31.12.2025. Begrunnelse: tiltaket gir energieffektivisering, redusert matsvinn og forbedrer kundeservice uten å skape konkurransevridning.",
+      "vedtak": "Kraftfondet bevilget 106 000 kroner til prosjektet med samme vilkår som innstillingen."
+    },
+    "stemmegivning": "Enstemmig vedtatt"
+  },
+  {
+    "sak": {
+      "søker": "Nesgata 4 AS",
+      "type": "Søknad om tilskudd til ombygging av lokaler til utleierom",
+      "dato": "2025-02-10",
+      "referanse": "PS-8/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Nesgata 4 AS planla å ombygge et tomt næringslokale i Nesgata 4 til fire høystandard utleierom. Prosjektet omfattet bygging, VVS‑arbeid, elektriske installasjoner, ventilasjon og kjøp av møbler. Formålet var å øke kapasiteten på overnatting i Åndalsnes, bruke eksisterende bygningsmasse og skape en arbeidsplass for eieren."
+    },
+    "budsjett": {
+      "punkter": [
+        {"tittel": "Totale kostnader", "verdi": "2 041 655 kroner"},
+        {"tittel": "Egeninnsats", "verdi": "341 655 kroner"},
+        {"tittel": "Søknadssum", "verdi": "200 000 kroner"},
+        {"tittel": "Beskrivelse", "verdi": "Ombygging av lokale, VVS, elektro, ventilasjon, møbler og byggesøknad"}
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte å avslå søknaden fordi prosjektet hovedsakelig er eiendomsutvikling som faller utenfor kraftfondets formål, og fordi støtte kunne gi konkurransevridning.",
+      "vedtak": "Søknaden ble avslått. Kraftfondet mente at selv om prosjektet var positivt, er det ikke støtteberettiget da fondet ikke skal finansiere eiendomsutvikling og fordi det kan medføre konkurransevridning."
+    },
+    "stemmegivning": "Enstemmig avslag"
+  },
+  {
+    "sak": {
+      "søker": "Eid Handelslag SA",
+      "type": "Søknad om tilskudd til ny kortterminal og levegg",
+      "dato": "2025-02-10",
+      "referanse": "PS-9/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Eid Handelslag driver kiosk og drivstoffanlegg ved Eidsbygda og ønsker å oppgradere betalingsløsningen og infrastrukturen. Prosjektet omfatter kjøp av ny betalingsterminal for selvbetjent drivstoffpumpe samt bygging av en levegg som beskytter kunder mot vær og vind. Tiltaket skal gjøre drivstoffanlegget mer brukervennlig for fastboende og besøkende og bidra til energibesparelser."
+    },
+    "budsjett": {
+      "punkter": [
+        {"tittel": "Totale kostnader", "verdi": "225 000 kroner"},
+        {"tittel": "Egeninnsats", "verdi": "10 000 kroner"},
+        {"tittel": "Søknadssum", "verdi": "50 000 kroner"},
+        {"tittel": "Beskrivelse", "verdi": "Kortterminal 145 000 kroner, installasjon og montering 30 000 kroner, levegg 40 000 kroner, dugnadsarbeid 10 000 kroner"}
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte et tilskudd på 50 000 kroner (39 % av godkjent kostnadsramme på 127 500 kroner) med vilkår om prosjektregnskap. Innstillingen bygget på at oppgraderingen styrker servicetilbudet i bygda og har liten konkurransevridende effekt.",
+      "vedtak": "Kraftfondet bevilget 50 000 kroner i investeringstilskudd med de samme vilkårene."
+    },
+    "stemmegivning": "Enstemmig vedtatt"
+  },
+  {
+    "sak": {
+      "søker": "Romsdal Reiseliv AS",
+      "type": "Søknad om tilskudd til digitalt vertskapskurs",
+      "dato": "2025-02-10",
+      "referanse": "PS-10/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Romsdal Reiseliv vil utvikle et digitalt vertskapskurs for reiselivsbedrifter i Rauma. Kurset skal ligge på en digital læringsplattform og dekke generelle tema som allemannsretten, naturforvaltning, universell utforming og lokalkunnskap om kultur, historie og attraksjoner. Målet er å styrke vertskapskompetansen, tilby fleksibel opplæring og nå flere ansatte året rundt samtidig som papirbasert kurs erstattes av en miljøvennlig løsning."
+    },
+    "budsjett": {
+      "punkter": [
+        {"tittel": "Totale kostnader", "verdi": "430 000 kroner"},
+        {"tittel": "Egeninnsats", "verdi": "150 000 kroner"},
+        {"tittel": "Søknadssum", "verdi": "112 000 kroner"},
+        {"tittel": "Beskrivelse", "verdi": "Innholdsproduksjon 180 000 kroner, organisering og oppbygging 50 000 kroner, kvalitetssikring 30 000 kroner, evaluering og videreutvikling 20 000 kroner"}
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo et tilskudd på 112 000 kroner, tilsvarende 40 % av godkjent kostnadsramme på 280 000 kroner, med krav om prosjektregnskap innen 1.9.2025. Innstillingen fremhevet at det digitale kurset fremmer bærekraftig opplæring, støtter reiselivsstrategien og styrker kompetanse i området.",
+      "vedtak": "Kraftfondet innvilget 112 000 kroner i tilskudd til det digitale vertskapskurset med de samme vilkårene."
+    },
+    "stemmegivning": "Enstemmig vedtatt"
+  },
+  {
+    "sak": {
+      "søker": "Vera Simonsson AS",
+      "type": "Søknad om tilskudd til gårdsproduksjon og utstyr",
+      "dato": "2025-02-10",
+      "referanse": "PS-11/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Vera Simonsson AS driver gård på Rødven og planlegger å utvide virksomheten gjennom produksjon av lokalmat. Prosjektet omfatter investering i et kjølerom, utstyr til produksjon av honning og yoghurt, arbeidsbenker, kjøttkvern, vakuumpakker, fryser, vekter og etikettutstyr, samt markedsføring, produktutvikling og faglige kurs. Målet er å øke omsetningen med cirka 300 000 kroner, skape 60 % stilling for begge eiere og tilby bærekraftige lokalmatprodukter."
+    },
+    "budsjett": {
+      "punkter": [
+        {"tittel": "Totale kostnader", "verdi": "435 000 kroner"},
+        {"tittel": "Egeninnsats", "verdi": "261 000 kroner"},
+        {"tittel": "Søknadssum", "verdi": "174 000 kroner"},
+        {"tittel": "Beskrivelse", "verdi": "Kjølerom, honningutstyr, yoghurtutstyr, arbeidsbenker, kjøttkvern, vakuumpakker, fryser, vekter og etiketteringsutstyr, markedsføring, produktutprøving og kurs"}
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte at Vera Simonsson AS får et investeringstilskudd på 174 000 kroner (40 % av godkjent kostnadsramme på 435 000 kroner) mot at det leveres et attestert prosjektregnskap innen 31.5.2025. Begrunnelsen var at investeringen støtter lokal verdiskaping, arbeidsplasser og bærekraftig matproduksjon.",
+      "vedtak": "Kraftfondet tildelte 174 000 kroner i tilskudd til gårdsproduksjon og utstyr i tråd med innstillingen."
+    },
+    "stemmegivning": "Enstemmig vedtatt"
+  },
+  {
+    "sak": {
+      "søker": "Hotel Aak AS",
+      "type": "Søknad om tilskudd til Toppturtoget – helårsturisme",
+      "dato": "2025-02-10",
+      "referanse": "PS-12/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Hotel Aak og partnere (SJ Norge og Visit Nordvest) vil etablere konseptet \"Toppturtoget\", der vintergjester tar tog til Åndalsnes og får pakkeløsning med overnatting og guidede toppturer. Prosjektet skal utvikle produktpakker, produsere markedsføringsmateriell og styrke samarbeid for helårs turisttrafikk. Ambisjonen er å skape mer bærekraftig vinterturisme, redusere bilbruk og jevne ut sesongsvingninger i reiselivet."
+    },
+    "budsjett": {
+      "punkter": [
+        {"tittel": "Totale kostnader", "verdi": "500 000 kroner"},
+        {"tittel": "Egeninnsats", "verdi": "323 600 kroner"},
+        {"tittel": "Søknadssum", "verdi": "172 000 kroner"},
+        {"tittel": "Beskrivelse", "verdi": "Fotoshoot, administrasjon hos SJ/Hotel Aak/Visit Nordvest, markedsføring, samarbeid med SJ, rådgivning og ulike arrangementer"}
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo et tilskudd på 172 000 kroner, tilsvarende 40 % av godkjent kostnadsramme på 430 000 kroner (etter fradrag for egeninnsats), mot at prosjektregnskap attesteres og frist settes til 1. april 2026. Innstillingen fremhevet at prosjektet bidrar til helårsturisme, samarbeid og bærekraftig transport.",
+      "vedtak": "Kraftfondet innvilget 172 000 kroner i tilskudd til Toppturtoget med de foreslåtte vilkårene."
+    },
+    "stemmegivning": "Enstemmig vedtatt"
+  }
+]

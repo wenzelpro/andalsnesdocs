@@ -1,0 +1,326 @@
+[
+  {
+    "sak": {
+      "søker": "",
+      "type": "Godkjenning av møteinnkalling og saksliste. Valg av protokollunderskrivere",
+      "dato": "2021-05-27",
+      "referanse": "PS-14/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": ""
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte å godkjenne møteinnkalling og saksliste samt å velge to representanter sammen med møteleder til å undertegne protokollen.",
+      "vedtak": "Møteinnkalling og saksliste ble godkjent. Jo Andre Herje og Ingunn Svelle Heinåli ble valgt sammen med møteleder til å underskrive protokollen."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "",
+      "type": "Referatsaker",
+      "dato": "2021-05-27",
+      "referanse": "PS-15/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": ""
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo at referatsaker tas til orientering.",
+      "vedtak": "Referatsakene ble tatt til orientering."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Woldstad Gard – Gudrun Enga Woldstad",
+      "type": "Søknad om bedriftsutviklingstilskudd",
+      "dato": "2021-05-27",
+      "referanse": "PS-16/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Woldstad Gard ønsker å restaurere seterfjøset sitt i Vengedalen til en sommer­kafé. Med stor trafikk av fjellturister langs Romsdalseggen og Litlefjellet vil prosjektet gi et servicetilbud til turgåere, bidra til ei ny inntektskilde og skape minst én sommerjobb på gården. Gården har støtte fra setersameiet og kommunen, og prosjektet skal øke verdiskapingen i området."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "124 750 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "18 750 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "50 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Renovering av seterfjøs med drenering, reparasjon av grunnmur og vegger, utskifting av råtne bord og dører, nytt tak og gulv."
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte avslag fordi Kraftfondets retningslinjer ikke tillater støtte til serverings­virksomhet.",
+      "vedtak": "Avslag. Fondet ønsket ikke å gi støtte til sommer­kafé og investeringer som går ut over retningslinjene."
+    },
+    "stemmegivning": "Enstemmig avslag"
+  },
+  {
+    "sak": {
+      "søker": "Nordveggen AS",
+      "type": "Tilskudd til Innovasjonsfestivalen 2021",
+      "dato": "2021-05-27",
+      "referanse": "PS-17/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Innovasjonsfestivalen er en årlig møteplass for næringslivet i Rauma der bedrifter, gründere og samarbeidspartnere får inspirasjon og nettverk. Festivalen samler aktører fra flere bransjer, setter fokus på innovasjon og synliggjør næringsmiljøet i kommunen. Arrangementet planlegges med fysisk og digitalt program og er et viktig markedsføringstiltak for Rauma."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "100 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo tilskudd på 100 000 kroner fordi Innovasjonsfestivalen har blitt et viktig arrangement for å skape innovasjon, samarbeid og synlighet for Rauma.",
+      "vedtak": "Tilskudd på 100 000 kroner til Innovasjonsfestivalen 2021 ble vedtatt. Arbeidsfristen er 31.12.2021."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Norsk Tindesenter Eiendom AS",
+      "type": "Investeringstilskudd til etablering av Via Ferrata",
+      "dato": "2021-05-27",
+      "referanse": "PS-18/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Selskapet driver Via Ferrata på Åndalsnes, som siden åpningen i 2017 har hatt om lag 15 000 besøkende på to ruter. For å møte den store etterspørselen og redusere køer ønsker de å utvide anlegget med to nye mellomruter og et prøvefelt. Utvidelsen skal gi flere valgmuligheter for gjestene, styrke kapasiteten og bidra til utvikling av Rauma som reiselivsdestinasjon."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "900 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "250 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "100 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Forprosjekt og bolting (80 000), prosjektledelse (100 000), rensking og etablering av nye ruter (600 000), administrasjon (20 000) og uforutsette kostnader (100 000)."
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte investeringstilskudd på 100 000 kroner til utvidelse av Via Ferrata, med frist 31.12.2021, fordi tiltaket øker kapasiteten og utvikler turistproduktet.",
+      "vedtak": "Tilskudd på 100 000 kroner til etablering av nye Via Ferrata‑ruter ble vedtatt med arbeidsfrist 31.12.2021."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "DAVO Media AS",
+      "type": "Investeringstilskudd til anskaffelse av kryptomineringsutstyr",
+      "dato": "2021-05-27",
+      "referanse": "PS-19/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "DAVO Media driver markedsføring og videoproduksjon. På grunn av pandemien har selskapet sett etter nye inntektskilder og testet ut kryptovaluta‑mining med en mindre maskin. De ønsker nå å investere i en spesialbygget mining‑rigg og leie lokaler med kjøling for å etablere et kryptomineringsanlegg i Rauma som kan skape stabile lokale arbeidsplasser."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "376 980 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "50 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "290 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Innkjøp av spesialbygget mining‑maskin (290 000), leie av lokaler i 12 måneder (36 000), bygging av clean room (40 000), estimert strømforbruk i 12 måneder (5 980) og serverutstyr (5 000)."
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte avslag. Utvinning av kryptovaluta regnes som finansiell tjeneste og faller utenfor Kraftfondets støtteordning.",
+      "vedtak": "Søknaden ble avslått. Fondet ga ikke støtte til investeringen i kryptomineringsutstyr."
+    },
+    "stemmegivning": "Enstemmig avslag"
+  },
+  {
+    "sak": {
+      "søker": "Åndalsnes Sentrum AS",
+      "type": "Bedriftsutviklingstilskudd til prosjektet Framtidens Åndalsnes sentrum",
+      "dato": "2021-05-27",
+      "referanse": "PS-20/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Prosjektet skal videreutvikle Åndalsnes sentrum til et livlig og fremtidsrettet bysentrum. Arbeidet omfatter prosjektledelse, workshops, studieturer, strategi‑ og identitetsprosesser, kontakt med lokalt næringsliv, arrangementer og fysiske tiltak som skal gjøre sentrum mer attraktivt for innbyggere og besøkende. Aktører og lokale virksomheter deltar aktivt med egeninnsats og kapital."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "1 100 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "100 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Prosjektledelse utvikling (400 000), møtekostnader og studietur (100 000), styringsgruppe egeninnsats (70 000), aktørers egeninnsats (130 000), kompetanseheving (50 000), datainnsamling og informasjon (50 000), aktivitetsmateriell (100 000), prosjektledelse aktiviteter (100 000) og formidling/synlighet (100 000)."
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte å innvilge et bedriftsutviklingstilskudd på 200 000 kroner. Søkerens opprinnelige beløp på 150 000 ble justert til 200 000, og støtten er nødvendig ettersom andre finansieringskilder er avslagte.",
+      "vedtak": "Tilskudd på inntil 200 000 kroner til prosjektet ble vedtatt, med utbetaling i to rater og frist 31.12.2021."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Romsdal Reiseliv og Handel",
+      "type": "Søknad om omgjøring av lån til tilskudd",
+      "dato": "2021-05-27",
+      "referanse": "PS-21/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Organisasjonen ba om å få omgjort et tidligere lån på 250 000 kroner til tilskudd. Målet var å styrke likviditeten, oppnå positiv egenkapital og frigjøre ressurser til verdiskapende tiltak for reiselivet i Romsdal. Søknaden viste til at konverteringen ville bedre økonomien og gi et sterkere grunnlag for videre drift."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "250 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte avslag fordi Romsdal Reiseliv og Handel allerede hadde fått et tilskudd og et lån, og Kraftfondets retningslinjer åpner ikke for å omgjøre lån til tilskudd eller gi støtte til drift.",
+      "vedtak": "Søknaden om å omgjøre lånet til tilskudd ble avslått."
+    },
+    "stemmegivning": "Enstemmig avslag"
+  },
+  {
+    "sak": {
+      "søker": "Kommunal kovid kompensasjonsordning",
+      "type": "Behandling av søknader kommunal kovid kompensasjonsordning til lokale virksomheter",
+      "dato": "2021-05-27",
+      "referanse": "PS-22/21"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Rauma kommune fikk tildelt 1 399 233 kroner som skulle fordeles til lokale virksomheter som var særlig hardt rammet av koronarestriksjonene i 2021. 24 søknader kom inn, og midlene skulle gå til bedrifter som ikke var dekket av nasjonale ordninger. Midlene måtte brukes innen 01.09.2021, ellers tilbakeføres de til staten."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "1 399 233 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Fordeling av kommunal kompensasjonsordning til lokale virksomheter"
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Administrasjonen la frem innstilling på møtet om å fordele midlene forholdsmessig likt etter justert søknadsbeløp.",
+      "vedtak": "Midlene i kompensasjonsordningen skal fordeles forholdsmessig likt etter justert søknadsbeløp. Administrasjonen får fullmakt til å kvalitetssikre søknadene og sende endelig fordeling til Kraftfondet før utbetaling."
+    },
+    "stemmegivning": "Enstemmig"
+  }
+]

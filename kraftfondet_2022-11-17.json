@@ -1,0 +1,290 @@
+[
+  {
+    "sak": {
+      "søker": "",
+      "type": "Godkjenning av møteinnkalling og saksliste. Valg av protokollunderskrivere",
+      "dato": "2022-11-17",
+      "referanse": "PS-45/22"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Saken gjaldt godkjenning av møteinnkalling og saksliste samt valg av to protokollunderskrivere. Kommunedirektøren foreslo at innkalling og agenda godkjennes og at to representanter velges til å undertegne protokollen."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo å godkjenne møteinnkalling og saksliste og å velge to representanter til å signere protokollen.",
+      "vedtak": "Møtekall og saksliste ble godkjent. Ingunn Svelle Heinåli og Jo‑Andre Herje ble valgt som medsignerende med møteleder."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "",
+      "type": "Referatsaker",
+      "dato": "2022-11-17",
+      "referanse": "PS-46/22"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Referatsaker ble lagt frem for orientering."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte at referatsakene tas til orientering.",
+      "vedtak": "Referatsakene ble tatt til orientering."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "",
+      "type": "Status for Kraftfondets midler",
+      "dato": "2022-11-17",
+      "referanse": "PS-47/22"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Saksframlegget presenterte status for Kraftfondets midler, med regnskap og balanse. Sum inntekter var 2 458 648 kroner og sum utgifter 2 326 258 kroner. Flere prosjekter vedtatt i 2021 og 2022 er i ferd med å avsluttes."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte å ta regnskapet med balanse til orientering.",
+      "vedtak": "Styret tok regnskapet med balanse til orientering."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Johansgarden DA",
+      "type": "Søknad om investeringstilskudd – Johansgarden",
+      "dato": "2022-11-17",
+      "referanse": "PS-48/22"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Johansgarden ønsker å restaurere den historiske bygningen Tullistauå fra 1853 for å utvikle gårdsbutikk og kursvirksomhet. Prosjektet skal erstatte råttent tak, bygge ny skorstein og ildsted og isolere taket slik at bygningen kan brukes året rundt. Målet er å bevare kulturarven, skape aktivitet på gården og tiltrekke besøkende til regionen."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "364 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "70 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "218 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Nytt tak 213 000 kroner, skorstein og ildsted 65 000 kroner, isolasjon og innvendig tak 86 000 kroner"
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo et investeringsstilskudd på 109 000 kroner (30 % av kostnadsrammen) med krav om revidert prosjektregnskap og frist 30.09.2023.",
+      "vedtak": "Kraftfondet innvilget et investeringsstilskudd på 72 800 kroner (20 % av kostnaden). Det ble stilt krav om revidert prosjektregnskap og frist 30.09.2023."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Moonlight Mountain Gear AS",
+      "type": "Søknad om bedriftsutviklingstilskudd",
+      "dato": "2022-11-17",
+      "referanse": "PS-49/22"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Selskapet vil etablere hovedkontor med showroom og sosialt rom i Strandgata 10 på Åndalsnes. Prosjektet omfatter flytting av virksomheten til Rauma, utvikling av arbeidsplasser, styrket merkevare og internasjonal vekst. Lokalet skal også fungere som møteplass for det lokale friluftsmiljøet."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "610 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Prosjektutvikling av hovedkontor 200 000 kroner, innredning og utstyr kontor 200 000 kroner, innredning showroom/sosialt rom 100 000 kroner, belysning 60 000 kroner, skilting og profilering 50 000 kroner"
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo et investeringsstilskudd på 183 000 kroner (30 % av kostnadsrammen).",
+      "vedtak": "Kraftfondet innvilget et investeringsstilskudd på 183 000 kroner (30 % av kostnaden) med krav om revidert prosjektregnskap og frist 30.09.2023."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Astero AS",
+      "type": "Søknad om tilskudd – Vii",
+      "dato": "2022-11-17",
+      "referanse": "PS-50/22"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Astero vil etablere arbeids- og møtestedet «Vii» for unge som har falt utenfor arbeidslivet. Senteret skal tilby arbeidstrening, veiledning og fellesskap i eksisterende lokaler i Åndalsnes. Målet er å forbedre livskvaliteten, redusere rusbruk og kriminalitet og bidra til inkludering og arbeidsevne."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "4 800 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "1 200 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "600 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Ombygging og nytt lokale 3 000 000 kroner, inventar og utstyr (kontormøbler, datautstyr, verktøy, maskiner mm.) cirka 410 000 kroner, øvrige investeringer cirka 390 000 kroner"
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte å innvilge 204 763 kroner fra gjenstående koronamidler (5,7 % av godkjent kostnad 3,6 millioner kroner) med krav om revidert prosjektregnskap og frist 30.09.2023.",
+      "vedtak": "Kraftfondet innvilget 204 763 kroner fra gjenstående koronamidler til prosjektet Vii (5,7 % av godkjent kostnad 3,6 millioner kroner), med krav om revidert prosjektregnskap og frist 30.09.2023."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "",
+      "type": "Næringsprisen 2022",
+      "dato": "2022-11-17",
+      "referanse": "PS-51/22"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Saken gjaldt utdeling av Næringsprisen 2022, en utmerkelse til en person eller virksomhet som har skapt nye arbeidsplasser eller gjort betydelig innsats for næringslivet i Rauma. Prisen består av 20 000 kroner og diplom/statuett, og juryen er Kraftfondets styre."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Ingen innstilling ble foreslått – saken ble lagt frem uten innstilling.",
+      "vedtak": "Kraftfondet tildelte Næringsprisen 2022 til iSi AS representert ved Fred Husøy."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "",
+      "type": "Møteplan 2023",
+      "dato": "2022-11-17",
+      "referanse": "PS-52/22"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Saken gjaldt fastsettelse av møteplan for Kraftfondets styre i 2023."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Ingen innstilling – saken ble oversendt uten forslag.",
+      "vedtak": "Etter møtet sendte sekretariatet forslag til møteplan med datoene 09.02, 23.03, 08.06, 14.09 og 21.11."
+    },
+    "stemmegivning": "Enstemmig"
+  }
+]
