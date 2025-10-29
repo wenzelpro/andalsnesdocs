@@ -1,0 +1,434 @@
+[
+  {
+    "sak": {
+      "søker": "",
+      "type": "Godkjenning av møteinnkalling og saksliste. Valg av protokollunderskrivere",
+      "dato": "2025-04-07",
+      "referanse": "PS-13/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Saken gjaldt godkjenning av møteinnkalling og saksliste samt valg av protokollunderskrivere."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo å godkjenne møteinnkallingen og saklisten og å velge to representanter til å undertegne protokollen sammen med møtelederen.",
+      "vedtak": "Møteinnkalling og saksliste ble godkjent. Sevrin Dahle Sæterøy (Sp) og Kari Merete Moen Volle ble valgt til å undertegne protokollen sammen med lederen."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "",
+      "type": "Referatsaker",
+      "dato": "2025-04-07",
+      "referanse": "PS-14/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Behandling av referatsaker."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte at referatsakene tas til orientering.",
+      "vedtak": "Referatsakene ble tatt til orientering."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "",
+      "type": "Orienteringssaker",
+      "dato": "2025-04-07",
+      "referanse": "PS-15/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Behandling av orienteringssaker, herunder muntlige orienteringer fra administrasjonen."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte at orienteringssakene tas til orientering.",
+      "vedtak": "Orienteringssakene ble tatt til orientering."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "",
+      "type": "Status for Kraftfondets midler april 2025",
+      "dato": "2025-04-07",
+      "referanse": "PS-16/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Saken ga en statusoppdatering om Kraftfondets disponible midler per april 2025."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte at saken tas til orientering og at sekretariatet gir en muntlig statusoppdatering om fondets midler.",
+      "vedtak": "Saken ble tatt til orientering. Styret oppfordret til at økonomirapportene sendes ut sammen med møteinnkallingen."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Norsk Tindesenter AS",
+      "type": "Søknad om tilskudd til nye stoler",
+      "dato": "2025-04-07",
+      "referanse": "PS-17/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Norsk Tindesenter planlegger å oppgradere auditoriet i \"Det Umulige Huset\" ved å installere 95 komfortable stoler, gjenbruk av stoler fra en kino. Prosjektet skal gjøre det mulig å holde lengre kurs og arrangementer og øke bruken og inntektene."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "250 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "10 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "100 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Konsulent- og håndverkertjenester (70 000 kr), materialer og utstyr (170 000 kr) samt egenarbeid (10 000 kr) for installasjon av 95 stoler."
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo et investeringstilskudd på 100 000 kroner (40 % av kostnadsrammen) til gjenbruk og installasjon av kinostoler. Prosjektregnskap skulle leveres og prosjektet ferdigstilles innen 1. august 2025.",
+      "vedtak": "Kraftfondet innvilget et investeringstilskudd på inntil 100 000 kroner (40 % av totalkostnaden) til gjenbruk og montering av 95 stoler. Prosjektregnskap skal leveres og fristen for ferdigstillelse er 1. 8. 2025. Ida Siem ble erklært inhabil; de resterende medlemmene vedtok saken enstemmig."
+    },
+    "stemmegivning": "Enstemmig (med én inhabil)"
+  },
+  {
+    "sak": {
+      "søker": "Vynohradov Honning Rauma",
+      "type": "Søknad om tilskudd til å utvide og modernisere bigård",
+      "dato": "2025-04-07",
+      "referanse": "PS-18/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Søker ønsker å kjøpe og videreutvikle en eksisterende bigårdsbedrift i Rauma. Midlene skal brukes til å kjøpe nye bifamilier, forbedre infrastruktur, investere i moderne utstyr og markedsføre honning og biprodukter. Målet er økt produksjon og lokal verdiskaping."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "404 317 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "225 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "161 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Kjøp av bifamilier og utstyr, ny infrastruktur, moderne utstyr og markedsføring av honning og biprodukter."
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte et etableringstilskudd på 161 000 kroner (40 % av en kostnadsramme på 404 317 kroner) til kjøp av bigård og investering i nye kuber, utstyr, infrastruktur og markedsføring. Kostnadsrammen ble redusert ved å trekke ut frivillig egeninnsats. Prosjektregnskap skulle leveres og prosjektet avsluttes innen 1. 9. 2025.",
+      "vedtak": "Kraftfondet innvilget et etableringstilskudd på inntil 161 000 kroner (40 % av godkjent kostnadsramme 404 317 kroner) til kjøp av bigård, investering i nye kuber, utstyr, forbedret infrastruktur og markedsføringstiltak. Prosjektregnskap skal leveres og prosjektet ferdigstilles innen 1. 9. 2025."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Verma Mat DA",
+      "type": "Søknad om tilskudd til glutenfri bakst",
+      "dato": "2025-04-07",
+      "referanse": "PS-19/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Verma Mat DA ønsker å etablere egen produksjon av glutenfrie bakeriprodukter. For å produsere glutenfritt må de etablere et eget arbeidsområde og kjøpe nytt utstyr, blant annet kjevlemaskin, vakuummaskin og transformator. Produktutvalget skal selges via lokal butikk og senere via andre utsalg og horeca."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "85 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "0 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "34 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Kjøp av kjevlemaskin (35 000 kr), rørleggerarbeid (20 000 kr), elektriker (20 000 kr), vakuummaskin (5 000 kr) og transformator (5 000 kr)."
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo et næringsutviklingstilskudd på 34 000 kroner (40 % av kostnadsrammen 85 000 kroner) til investering i utstyr og nødvendige håndverker­tjenester for å etablere glutenfri produksjon. Prosjektregnskap skulle leveres og tiltaket ferdigstilles innen 1. 11. 2025.",
+      "vedtak": "Kraftfondet innvilget et næringsutviklingstilskudd på inntil 34 000 kroner (40 % av godkjent kostnadsramme 85 000 kroner) til kjøp av kjevlemaskin, vakuummaskin og transformator samt rørlegger- og elektrikerarbeid. Regnskap skal leveres og prosjektet skal være ferdig innen 1. 11. 2025."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Ingebrigt Dalset",
+      "type": "Søknad om tilskudd til modernisering av verksteddrift",
+      "dato": "2025-04-07",
+      "referanse": "PS-20/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Ingebrigt Dalset driver verksted for reparasjon av landbruks­maskiner og ønsker å modernisere verkstedet ved å etterisolere bygg, sette inn nye vinduer og porter, lage innvendige rom og installere varmepumpe. Målet er å utvide kapasiteten, kunne arbeide året rundt og redusere energikostnader."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "677 435 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "0 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Vinduer (29 000 kr), stor port til maskiner (60 345 kr), inngangsdør (9 500 kr), isolerte takplater (203 450 kr), isolerte veggplater (159 640 kr), innervegger (46 500 kr), montering (129 000 kr) og varmepumpe (40 000 kr)."
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte et investeringstilskudd på 200 000 kroner (29,5 % av kostnadsrammen 677 435 kroner) til kjøp av materialer for etterisolering av verkstedet og etablering av porter, dører, vegger og varmepumpe. Prosjektregnskap skulle leveres og tiltaket ferdigstilles innen 1. 12. 2025.",
+      "vedtak": "Kraftfondet innvilget et investeringstilskudd på inntil 200 000 kroner (29,5 % av godkjent kostnadsramme 677 435 kroner) til etterisolering og utvidelse av verkstedet inkludert nye vinduer, porter, vegger og varmepumpe. Prosjektregnskap skal leveres og prosjektet skal være ferdig innen 1. 12. 2025."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "Verma Nærbutikk AS",
+      "type": "Søknad om tilskudd til toalett og lysskilt",
+      "dato": "2025-04-07",
+      "referanse": "PS-21/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Verma Nærbutikk ligger ved Kylling bru og opplever stor pågang fra tilreisende som mangler toalettfasiliteter. Bedriften ønsker å bygge et offentlig toalett av to lagerrom, etablere et adgangssystem med betalingsløsning og kamera og sette opp et opplyst WC-skilt. Målet er å tilby bedre servicetilbud til turister og samtidig trekke flere kunder til butikken."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "360 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "0 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "100 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Ombygging med rørlegger og elektriker (308 000 kr), adgangs- og betalingssystem (29 000 kr), utendørs kamera (5 000 kr) og lysskilt (18 000 kr)."
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte et investeringstilskudd på 100 000 kroner (28 % av kostnadsrammen 360 000 kroner) til etablering av toalett og lysskilt. Prosjektregnskap skulle leveres og tiltaket ferdigstilles innen 1. 12. 2025.",
+      "vedtak": "Søknaden ble avslått. Styrets flertall (3 mot 2) mente tiltaket, selv om det er positivt, ikke anses som næringsutvikling og bør ikke finansieres av Kraftfondet."
+    },
+    "stemmegivning": "3 mot 2 (avslag)"
+  },
+  {
+    "sak": {
+      "søker": "Nyheim AS",
+      "type": "Søknad om tilskudd til konseptutvikling og profilering av overnattingssted",
+      "dato": "2025-04-07",
+      "referanse": "PS-22/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Nyheim AS ønsker å utvikle et overnattingskonsept i Nesgata 4 ved å renovere et gammelt næringslokale og tilby rom med kjøkken og vaskerom. Prosjektet inkluderer konseptutvikling, produktutvikling (pakker med opplevelser), nettside, sosiale medier og profilering med fokus på lokal historie. Målet er å tiltrekke gjester året rundt og skape minst én arbeidsplass."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "500 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "220 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Konseptutvikling (150 000 kr), produktutvikling (150 000 kr), nettside (100 000 kr), sosiale medier (50 000 kr) og profilering (50 000 kr)."
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte avslag på søknaden fordi prosjektet var i tidlig fase og kunne gi konkurransevridning overfor eksisterende overnattingstilbud. Det ble vist til at prosjektet manglet etablert drift og kompetanse og at markedsgrunnlaget var usikkert.",
+      "vedtak": "Søknaden ble avslått. Styret mente prosjektet var for tidlig i konseptfasen og at det ville kunne konkurrere med eksisterende aktører. Avslaget var enstemmig."
+    },
+    "stemmegivning": "Enstemmig avslag"
+  },
+  {
+    "sak": {
+      "søker": "",
+      "type": "Ønske om endring av retningslinjene",
+      "dato": "2025-04-07",
+      "referanse": "PS-23/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "Styret ønsket å revidere Kraftfondets retningslinjer og fjerne avsnittet om egeninnsats. Bakgrunnen er at dagens retningslinjer åpner for at egen arbeidsinnsats i unntakstilfelle kan regnes med i kapitalbehovet, noe som gjør saksbehandlingen utydelig og vanskelig å kontrollere."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": ""
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": ""
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren foreslo at Kraftfondet skulle be kommunestyret om å endre retningslinjene slik at bestemmelsen om at egen arbeidsinnsats kan medregnes i kapitalbehovet fjernes. Begrunnelsen var at egeninnsats er vanskelig å kontrollere og gjør vurderingen av kostnadsrammer usikker.",
+      "vedtak": "Styret i Kraftfondet vedtok enstemmig å be om revisjon av retningslinjene ved å fjerne avsnittet om egeninnsats. Begrunnelsen var at dagens formulering er uklar og at det vil bli enklere å behandle alle søknader likt dersom egen arbeidsinnsats ikke medregnes."
+    },
+    "stemmegivning": "Enstemmig"
+  },
+  {
+    "sak": {
+      "søker": "JO Moen AS",
+      "type": "Søknad om tilskudd til energisparingsprosjekt",
+      "dato": "2025-04-07",
+      "referanse": "PS-24/25"
+    },
+    "prosjektbeskrivelse": {
+      "tekst": "JO Moen AS ønsker å gjennomføre et energisparingsprosjekt ved å installere tre varmepumper som erstatter gamle vifter og bytte ut all belysning med LED-armaturer. Tiltaket skal gi bedre arbeidsmiljø, redusere energiforbruket med om lag 140 000 kWh per år og sikre arbeidsplasser. Prosjektet omfatter også tetting av fasaden."
+    },
+    "budsjett": {
+      "punkter": [
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "815 715 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "13 500 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Varmepumper (289 600 kr) og elektriker (15 000 kr), LED-belysning (250 000 kr) og elektriker (162 615 kr), leie av lift (20 000 kr), tetting av fasade med snekkerarbeid (45 000 kr) og materialer (30 000 kr), ekstra lift til snekring (5 000 kr) samt prosjektering og administrasjon (13 500 kr)."
+        }
+      ]
+    },
+    "vedtak": {
+      "innstilling": "Kommunedirektøren anbefalte et investeringstilskudd på 182 886 kroner (40 % av en godkjent kostnadsramme på 457 215 kroner) til kjøp og installasjon av tre varmepumper og utskifting av belysning. Kostnadsrammen ble beregnet etter fratrekk for Enova-støtte (300 000 kr) og intern arbeidsinnsats (58 500 kr). Prosjektregnskap skulle leveres og prosjektet ferdigstilles innen 31. 10. 2025.",
+      "vedtak": "Søknaden ble avslått. Kari Merete Moen Volle ble funnet inhabil, og de resterende fire styremedlemmene stemte imot innstillingen. Styret mente at selv om energisparing er positivt, forventes det at bedriften finansierer investeringen selv."
+    },
+    "stemmegivning": "4 mot 0 (avslag, én inhabil)"
+  }
+]
