@@ -1,150 +1,6 @@
 [
   {
     "sak": {
-      "søker": "",
-      "type": "Godkjenning av møteinnkalling og saksliste. Valg av protokollunderskrivere",
-      "dato": "2025-04-07",
-      "referanse": "PS-13/25"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "Saken gjaldt godkjenning av møteinnkalling og saksliste samt valg av protokollunderskrivere."
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren foreslo å godkjenne møteinnkallingen og saklisten og å velge to representanter til å undertegne protokollen sammen med møtelederen.",
-      "vedtak": "Møteinnkalling og saksliste ble godkjent. Sevrin Dahle Sæterøy (Sp) og Kari Merete Moen Volle ble valgt til å undertegne protokollen sammen med lederen."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Referatsaker",
-      "dato": "2025-04-07",
-      "referanse": "PS-14/25"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "Behandling av referatsaker."
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte at referatsakene tas til orientering.",
-      "vedtak": "Referatsakene ble tatt til orientering."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Orienteringssaker",
-      "dato": "2025-04-07",
-      "referanse": "PS-15/25"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "Behandling av orienteringssaker, herunder muntlige orienteringer fra administrasjonen."
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte at orienteringssakene tas til orientering.",
-      "vedtak": "Orienteringssakene ble tatt til orientering."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Status for Kraftfondets midler april 2025",
-      "dato": "2025-04-07",
-      "referanse": "PS-16/25"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "Saken ga en statusoppdatering om Kraftfondets disponible midler per april 2025."
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte at saken tas til orientering og at sekretariatet gir en muntlig statusoppdatering om fondets midler.",
-      "vedtak": "Saken ble tatt til orientering. Styret oppfordret til at økonomirapportene sendes ut sammen med møteinnkallingen."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
       "søker": "Norsk Tindesenter AS",
       "type": "Søknad om tilskudd til nye stoler",
       "dato": "2025-04-07",
@@ -177,7 +33,8 @@
       "innstilling": "Kommunedirektøren foreslo et investeringstilskudd på 100 000 kroner (40 % av kostnadsrammen) til gjenbruk og installasjon av kinostoler. Prosjektregnskap skulle leveres og prosjektet ferdigstilles innen 1. august 2025.",
       "vedtak": "Kraftfondet innvilget et investeringstilskudd på inntil 100 000 kroner (40 % av totalkostnaden) til gjenbruk og montering av 95 stoler. Prosjektregnskap skal leveres og fristen for ferdigstillelse er 1. 8. 2025. Ida Siem ble erklært inhabil; de resterende medlemmene vedtok saken enstemmig."
     },
-    "stemmegivning": "Enstemmig (med én inhabil)"
+    "stemmegivning": "Enstemmig (med én inhabil)",
+    "innvilget": true
   },
   {
     "sak": {
@@ -213,7 +70,8 @@
       "innstilling": "Kommunedirektøren anbefalte et etableringstilskudd på 161 000 kroner (40 % av en kostnadsramme på 404 317 kroner) til kjøp av bigård og investering i nye kuber, utstyr, infrastruktur og markedsføring. Kostnadsrammen ble redusert ved å trekke ut frivillig egeninnsats. Prosjektregnskap skulle leveres og prosjektet avsluttes innen 1. 9. 2025.",
       "vedtak": "Kraftfondet innvilget et etableringstilskudd på inntil 161 000 kroner (40 % av godkjent kostnadsramme 404 317 kroner) til kjøp av bigård, investering i nye kuber, utstyr, forbedret infrastruktur og markedsføringstiltak. Prosjektregnskap skal leveres og prosjektet ferdigstilles innen 1. 9. 2025."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -249,7 +107,8 @@
       "innstilling": "Kommunedirektøren foreslo et næringsutviklingstilskudd på 34 000 kroner (40 % av kostnadsrammen 85 000 kroner) til investering i utstyr og nødvendige håndverker­tjenester for å etablere glutenfri produksjon. Prosjektregnskap skulle leveres og tiltaket ferdigstilles innen 1. 11. 2025.",
       "vedtak": "Kraftfondet innvilget et næringsutviklingstilskudd på inntil 34 000 kroner (40 % av godkjent kostnadsramme 85 000 kroner) til kjøp av kjevlemaskin, vakuummaskin og transformator samt rørlegger- og elektrikerarbeid. Regnskap skal leveres og prosjektet skal være ferdig innen 1. 11. 2025."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -285,7 +144,8 @@
       "innstilling": "Kommunedirektøren anbefalte et investeringstilskudd på 200 000 kroner (29,5 % av kostnadsrammen 677 435 kroner) til kjøp av materialer for etterisolering av verkstedet og etablering av porter, dører, vegger og varmepumpe. Prosjektregnskap skulle leveres og tiltaket ferdigstilles innen 1. 12. 2025.",
       "vedtak": "Kraftfondet innvilget et investeringstilskudd på inntil 200 000 kroner (29,5 % av godkjent kostnadsramme 677 435 kroner) til etterisolering og utvidelse av verkstedet inkludert nye vinduer, porter, vegger og varmepumpe. Prosjektregnskap skal leveres og prosjektet skal være ferdig innen 1. 12. 2025."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -321,7 +181,8 @@
       "innstilling": "Kommunedirektøren anbefalte et investeringstilskudd på 100 000 kroner (28 % av kostnadsrammen 360 000 kroner) til etablering av toalett og lysskilt. Prosjektregnskap skulle leveres og tiltaket ferdigstilles innen 1. 12. 2025.",
       "vedtak": "Søknaden ble avslått. Styrets flertall (3 mot 2) mente tiltaket, selv om det er positivt, ikke anses som næringsutvikling og bør ikke finansieres av Kraftfondet."
     },
-    "stemmegivning": "3 mot 2 (avslag)"
+    "stemmegivning": "3 mot 2 (avslag)",
+    "innvilget": false
   },
   {
     "sak": {
@@ -357,43 +218,8 @@
       "innstilling": "Kommunedirektøren anbefalte avslag på søknaden fordi prosjektet var i tidlig fase og kunne gi konkurransevridning overfor eksisterende overnattingstilbud. Det ble vist til at prosjektet manglet etablert drift og kompetanse og at markedsgrunnlaget var usikkert.",
       "vedtak": "Søknaden ble avslått. Styret mente prosjektet var for tidlig i konseptfasen og at det ville kunne konkurrere med eksisterende aktører. Avslaget var enstemmig."
     },
-    "stemmegivning": "Enstemmig avslag"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Ønske om endring av retningslinjene",
-      "dato": "2025-04-07",
-      "referanse": "PS-23/25"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "Styret ønsket å revidere Kraftfondets retningslinjer og fjerne avsnittet om egeninnsats. Bakgrunnen er at dagens retningslinjer åpner for at egen arbeidsinnsats i unntakstilfelle kan regnes med i kapitalbehovet, noe som gjør saksbehandlingen utydelig og vanskelig å kontrollere."
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren foreslo at Kraftfondet skulle be kommunestyret om å endre retningslinjene slik at bestemmelsen om at egen arbeidsinnsats kan medregnes i kapitalbehovet fjernes. Begrunnelsen var at egeninnsats er vanskelig å kontrollere og gjør vurderingen av kostnadsrammer usikker.",
-      "vedtak": "Styret i Kraftfondet vedtok enstemmig å be om revisjon av retningslinjene ved å fjerne avsnittet om egeninnsats. Begrunnelsen var at dagens formulering er uklar og at det vil bli enklere å behandle alle søknader likt dersom egen arbeidsinnsats ikke medregnes."
-    },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig avslag",
+    "innvilget": false
   },
   {
     "sak": {
@@ -429,6 +255,7 @@
       "innstilling": "Kommunedirektøren anbefalte et investeringstilskudd på 182 886 kroner (40 % av en godkjent kostnadsramme på 457 215 kroner) til kjøp og installasjon av tre varmepumper og utskifting av belysning. Kostnadsrammen ble beregnet etter fratrekk for Enova-støtte (300 000 kr) og intern arbeidsinnsats (58 500 kr). Prosjektregnskap skulle leveres og prosjektet ferdigstilles innen 31. 10. 2025.",
       "vedtak": "Søknaden ble avslått. Kari Merete Moen Volle ble funnet inhabil, og de resterende fire styremedlemmene stemte imot innstillingen. Styret mente at selv om energisparing er positivt, forventes det at bedriften finansierer investeringen selv."
     },
-    "stemmegivning": "4 mot 0 (avslag, én inhabil)"
+    "stemmegivning": "4 mot 0 (avslag, én inhabil)",
+    "innvilget": false
   }
 ]

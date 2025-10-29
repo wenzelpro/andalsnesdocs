@@ -1,150 +1,6 @@
 [
   {
     "sak": {
-      "søker": "",
-      "type": "Godkjenning av møteinnkalling og saksliste. Valg av protokollunderskrivere",
-      "dato": "2024-12-02",
-      "referanse": "PS-41/24"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren foreslo at møteinnkallingen og saksliste godkjennes, og at to representanter velges sammen med møteleder til å underskrive protokollen【273485533604210†L9-L12】.",
-      "vedtak": "Møteinnkalling og saksliste ble godkjent, men søknaden fra Norsk Tindesenter kom inn etter fristen og blir behandlet på neste møte【748761787889279†L11-L18】."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Referatsaker",
-      "dato": "2024-12-02",
-      "referanse": "PS-42/24"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte at referatsakene tas til orientering【593714601662650†L10-L14】.",
-      "vedtak": "Referatsakene ble tatt til orientering【123982585318972†L8-L14】."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Orienteringssaker",
-      "dato": "2024-12-02",
-      "referanse": "PS-43/24"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte at orienteringssakene tas til orientering, med informasjon om blant annet tilskudd til Nivfors ENK, Edda Ytterbakke, Rauma kommune kultur og Rauma Golfklubb【140511894503546†L11-L19】.",
-      "vedtak": "Orienteringssakene ble tatt til orientering【79879996997230†L8-L14】."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Kraftfondets midler - status november 2024",
-      "dato": "2024-12-02",
-      "referanse": "PS-44/24"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Sekretariatet orienterte om status for Kraftfondets midler og kommunedirektøren innstilte på at saken tas til orientering【657913400356968†L15-L19】.",
-      "vedtak": "Saken ble tatt til orientering【504576527385097†L20-L26】."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
       "søker": "Rauma kommune",
       "type": "Søknad om tilskudd – forprosjekt kreativt fellesskap",
       "dato": "2024-12-02",
@@ -177,7 +33,8 @@
       "innstilling": "Kommunedirektøren foreslo et tilskudd på 100 000 kroner, tilsvarende 40 % av en godkjent kostnadsramme på 250 000 kroner. Dette skulle bidra til å starte prosjektet med kreative fellesskap【922380324613385†L17-L33】.",
       "vedtak": "Styret vedtok å gi et tilskudd på 80 000 kroner (40 % av en kostnadsramme på 200 000 kroner) etter at egeninnsats ble trukket ut av beregningsgrunnlaget【757596586239068†L20-L33】."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -213,7 +70,8 @@
       "innstilling": "Kommunedirektøren foreslo et tilskudd på 88 000 kroner, som utgjør 40 % av en kostnadsramme på 220 000 kroner etter at egeninnsats på 80 000 kroner er tatt ut av grunnlaget【259719668293145†L17-L25】.",
       "vedtak": "Styret vedtok tilskudd i tråd med innstillingen: 88 000 kroner (40 % av 220 000 kroner)【950080258049795†L25-L33】."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -249,7 +107,8 @@
       "innstilling": "Kommunedirektøren foreslo etableringstilskudd på 67 520 kroner, tilsvarende 40 % av en kostnadsramme på 168 800 kroner. Tilskuddet skulle brukes til utstyr og profilering【178617795227600†L17-L33】.",
       "vedtak": "Styret innvilget 67 520 kroner (40 % av 168 800 kroner) med krav om attestert prosjektregnskap før utbetaling og frist 31.01.2025【468777177228674†L25-L31】."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -285,79 +144,8 @@
       "innstilling": "Kommunedirektøren anbefalte å gi 300 000 kroner per år fra 2025 til 2029 til Romsdal Innovasjon AS【241029364853543†L17-L31】.",
       "vedtak": "Styret besluttet å bevilge 300 000 kroner per år i perioden 2025–2029 for å sikre selskapets involvering i tilretteleggende næringsutviklingsarbeid【336995954023242†L25-L29】."
     },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Møteplan 2025",
-      "dato": "2024-12-02",
-      "referanse": "PS-49/24"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren la frem forslag til møteplan for 2025 med møter 10. februar, 14. april, 9. juni, 15. september og 24. november, alle kl. 10.00–12.00【703493946176671†L18-L24】.",
-      "vedtak": "Styret vedtok møteplanen slik den var foreslått【553812487600850†L26-L30】."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Næringsprisen 2024",
-      "dato": "2024-12-02",
-      "referanse": "PS-50/24"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren la frem saken uten innstilling; kandidatforslagene var unntatt offentlighet, og tidligere vinnere av næringsprisen ble presentert【339588662560976†L17-L87】.",
-      "vedtak": "Styret vedtok at Wonderland AS tildeles Næringsprisen 2024【603149714085998†L20-L27】."
-    },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -393,6 +181,7 @@
       "innstilling": "Kommunedirektøren foreslo investeringstilskudd på 170 000 kroner (37 % av kostnadsrammen 455 000 kroner) med krav om attestert prosjektregnskap og arbeidsfrist 1.5.2025【957493366659604†L20-L27】.",
       "vedtak": "Søknaden kom inn etter fristen, derfor ble saken utsatt til behandlingen i februar 2025【458203301927428†L20-L23】."
     },
-    "stemmegivning": ""
+    "stemmegivning": "",
+    "innvilget": false
   }
 ]

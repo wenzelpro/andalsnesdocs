@@ -1,186 +1,6 @@
 [
   {
     "sak": {
-      "søker": "",
-      "type": "Godkjenning av møteinnkalling og saksliste. Valg av protokollunderskrivere",
-      "dato": "2022-03-31",
-      "referanse": "PS-21/22"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren foreslo at møteinnkalling og saksliste godkjennes og at to representanter sammen med møtelederen velges til å underskrive protokollen.",
-      "vedtak": "Møteinnkalling og saksliste ble godkjent, og Ingunn Svelle Heinåli og David Grøvdal ble valgt sammen med møtelederen til å underskrive protokollen."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Referatsaker",
-      "dato": "2022-03-31",
-      "referanse": "PS-22/22"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Saksframlegget anbefalte å ta referatsakene til orientering.",
-      "vedtak": "Referatsakene ble tatt til orientering."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Orienteringssaker",
-      "dato": "2022-03-31",
-      "referanse": "PS-23/22"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Innstillingen orienterte om økonomisk status for fondet, utdeling av Næringsprisen og diskusjon om aktiv bruk av fondet, og anbefalte at orienteringssakene tas til orientering.",
-      "vedtak": "Orienteringssakene ble tatt til orientering."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Kommunal covid‑19‑kompensasjonsordning for lokale virksomheter – endring av forskrift",
-      "dato": "2022-03-31",
-      "referanse": "PS-24/22"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte at Rauma kommune bruker tildelte 436 000 kroner til en ny runde med kommunal kompensasjon til bedrifter som har tapt omsetning på grunn av covid‑19‑restriksjoner, med særlig prioritering av restauranter, hoteller, reisebyråer og andre lokale tjeneste‑ og arrangementsbedrifter.",
-      "vedtak": "Kraftfondet vedtok enstemmig de foreslåtte retningslinjene for den nye kompensasjonsrunden."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Kommunal covid‑19‑kompensasjonsordning – tildeling",
-      "dato": "2022-03-31",
-      "referanse": "PS-25/22"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": "429 358 kroner"
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": "Tilskudd til seks virksomheter: Norsk Tindesenter AS (71 519 kr), Sødahlhuset AS (91 000 kr), Fjell Pøbben AS (100 000 kr), Gudrun Enga Woldstad (72 399 kr), Vingården Tuen AS (15 000 kr) og Ingrid Devor (79 440 kr). Søknader fra Romsdalsgondolen AS og Romsdalen Matopplevelser AS ble avvist."
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Innstillingen foreslo å fordele 429 358 kroner fra den syvende kommunale kompensasjonsrunden på seks bedrifter, og å avslå søknader fra Romsdalsgondolen AS og Romsdalen Matopplevelser AS fordi konsernet hadde nådd støttetaket.",
-      "vedtak": "Kraftfondet vedtok enstemmig den foreslåtte fordelingen av midlene og avslo de to avviste søknadene."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
       "søker": "Layan AS",
       "type": "Søknad om tilskudd til digitalisering av nettbutikk",
       "dato": "2022-03-31",
@@ -213,7 +33,8 @@
       "innstilling": "Kommunedirektøren anbefalte et etableringstilskudd på 19 900 kroner (40 % av kostnadsrammen) til digitaliseringsprosjektet.",
       "vedtak": "Kraftfondet vedtok et tilskudd på 19 900 kroner (40 % av totalkostnaden) til prosjektet, med frist for gjennomføring 31.12.2022."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -249,7 +70,8 @@
       "innstilling": "Kommunedirektøren anbefalte et tilskudd på 36 000 kroner (30 % av godkjent kostnadsramme på 120 000 kr) til de fire tiltakene, men uten støtte til bilkjøp.",
       "vedtak": "Kraftfondet økte tilskuddet til 48 000 kroner (40 % av kostnadsrammen) og innvilget støtte til tiltaket."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -285,7 +107,8 @@
       "innstilling": "Kommunedirektøren anbefalte et etableringstilskudd på 133 000 kroner (40 % av kostnadsrammen 333 722 kr) med gjennomføringsfrist 30.11.2022.",
       "vedtak": "Kraftfondet vedtok enstemmig å bevilge 133 000 kroner (40 % av totalkostnaden) til prosjektet på de samme vilkårene."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -321,7 +144,8 @@
       "innstilling": "Kommunedirektøren anbefalte et etableringstilskudd på 137 000 kroner (40 % av godkjent kostnadsramme 343 000 kr) og avslo søknaden om lån.",
       "vedtak": "Kraftfondet vedtok enstemmig et tilskudd på 86 000 kroner (25 % av kostnadsrammen 343 000 kr) og avslo lånesøknaden."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -357,7 +181,8 @@
       "innstilling": "Kommunedirektøren anbefalte et bedriftsutviklingstilskudd på 170 000 kroner (40 % av kostnadsrammen 425 000 kr) og satte frist 31.03.2023.",
       "vedtak": "Kraftfondet vedtok enstemmig et tilskudd på 170 000 kroner (40 % av totalkostnaden) på de samme vilkårene."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -393,7 +218,8 @@
       "innstilling": "Kommunedirektøren anbefalte et bedriftsutviklingstilskudd på 40 000 kroner (12,5 % av kostnadsrammen 320 000 kr) og satte frist 30.06.2023.",
       "vedtak": "Kraftfondet vedtok enstemmig å bevilge opptil 40 000 kroner (12,5 % av 320 000 kr) til forprosjektet."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -429,6 +255,7 @@
       "innstilling": "Kommunedirektøren anbefalte et bedriftsutviklingstilskudd på 100 000 kroner (40 % av kostnadsrammen 250 000 kr) til filmprosjektet med krav om dokumentasjon og frist 31.03.2023.",
       "vedtak": "Kraftfondet vedtok enstemmig et tilskudd på 100 000 kroner (40 % av 250 000 kr) til produksjonen av \"Gulltransporten\"."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   }
 ]

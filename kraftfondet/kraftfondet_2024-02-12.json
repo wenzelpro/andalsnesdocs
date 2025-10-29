@@ -1,102 +1,6 @@
 [
   {
     "sak": {
-      "søker": "N/A",
-      "type": "Godkjenning av møteinnkalling og saksliste; valg av protokollunderskrivere",
-      "dato": "2024-02-12",
-      "referanse": "PS-1/24"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "Kraftfondet behandlet godkjenning av møteinnkalling og saksliste. Saken gjaldt å godkjenne innkalling og dagsorden og velge to representanter som, sammen med møteleder, skal signere møtets protokoll."
-    },
-    "budsjett": {
-      "punkter": [
-        {"tittel": "Totale kostnader", "verdi": ""},
-        {"tittel": "Egeninnsats", "verdi": ""},
-        {"tittel": "Søknadssum", "verdi": ""},
-        {"tittel": "Beskrivelse", "verdi": ""}
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte at møteinnkalling og saksliste godkjennes, og at to representanter velges til å underskrive protokollen sammen med møteleder【405383355416539†L15-L19】.",
-      "vedtak": "Møteinnkalling og saksliste ble godkjent. To representanter ble valgt sammen med møtelederen til å godkjenne protokollen."
-    },
-    "stemmegivning": "Enstemmig vedtak"
-  },
-  {
-    "sak": {
-      "søker": "N/A",
-      "type": "Referatsaker",
-      "dato": "2024-02-12",
-      "referanse": "PS-2/24"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "Utvalget tok for seg referatsaker, herunder tidligere møterapporter og orienteringer. Saken innebar å ta rapportene til orientering uten ytterligere vedtak."
-    },
-    "budsjett": {
-      "punkter": [
-        {"tittel": "Totale kostnader", "verdi": ""},
-        {"tittel": "Egeninnsats", "verdi": ""},
-        {"tittel": "Søknadssum", "verdi": ""},
-        {"tittel": "Beskrivelse", "verdi": ""}
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Administrasjonen la frem referatsaker til orientering.",
-      "vedtak": "Referatsakene ble tatt til orientering uten endringer."
-    },
-    "stemmegivning": "Enstemmig vedtak"
-  },
-  {
-    "sak": {
-      "søker": "N/A",
-      "type": "Årsmelding 2023",
-      "dato": "2024-02-12",
-      "referanse": "PS-3/24"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "Kraftfondets årsmelding for 2023 ble lagt frem. Rapporten oppsummerer tildelinger og aktiviteter i 2023 og gir en oversikt over måloppnåelse og status for ulike prosjekter."
-    },
-    "budsjett": {
-      "punkter": [
-        {"tittel": "Totale kostnader", "verdi": ""},
-        {"tittel": "Egeninnsats", "verdi": ""},
-        {"tittel": "Søknadssum", "verdi": ""},
-        {"tittel": "Beskrivelse", "verdi": ""}
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Administrasjonen foreslo at årsmeldingen tas til orientering.",
-      "vedtak": "Årsmeldingen for 2023 ble tatt til orientering."
-    },
-    "stemmegivning": "Enstemmig vedtak"
-  },
-  {
-    "sak": {
-      "søker": "N/A",
-      "type": "Status Kraftfondets midler per februar 2024",
-      "dato": "2024-02-12",
-      "referanse": "PS-4/24"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "Saken presenterte status for Kraftfondets midler per februar 2024 med informasjon om disponerte og disponible midler."
-    },
-    "budsjett": {
-      "punkter": [
-        {"tittel": "Totale kostnader", "verdi": ""},
-        {"tittel": "Egeninnsats", "verdi": ""},
-        {"tittel": "Søknadssum", "verdi": ""},
-        {"tittel": "Beskrivelse", "verdi": ""}
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Administrasjonen la frem statusoversikt for informasjon.",
-      "vedtak": "Status for Kraftfondets midler per februar 2024 ble tatt til orientering."
-    },
-    "stemmegivning": "Enstemmig vedtak"
-  },
-  {
-    "sak": {
       "søker": "Søvik Hovde Service ENK",
       "type": "Søknad om tilskudd",
       "dato": "2024-02-12",
@@ -107,17 +11,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "605 000 kroner"},
-        {"tittel": "Egeninnsats", "verdi": ""},
-        {"tittel": "Søknadssum", "verdi": "200 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Kostnadsrammen på 605 000 kroner gjelder servicebåt og utstyr. Tidligere søknad viste totale investeringskostnader på 1 300 000 kroner med egeninnsats i form av egen båt og utstyr"}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "605 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Kostnadsrammen på 605 000 kroner gjelder servicebåt og utstyr. Tidligere søknad viste totale investeringskostnader på 1 300 000 kroner med egeninnsats i form av egen båt og utstyr"
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren foreslo investerings­tilskudd på 200 000 kroner (33 % av kostnadsrammen på 605 000 kroner) og stilte krav om prosjektregnskap og frist 31.08.2024【859445329932249†L17-L23】.",
       "vedtak": "Enstemmig innvilgelse. Kraftfondet bevilget 200 000 kroner i investerings­tilskudd (33 % av kostnadsrammen) til Søvik Hovde Service ENK. Tilskuddet gis til anskaffelse av ny servicebåt og utstyr. Prosjektregnskap attesteres av autorisert regnskapsfører og frist settes til 31.08.2024【262613196810349†L20-L32】."
     },
-    "stemmegivning": "Enstemmig for innstilling"
+    "stemmegivning": "Enstemmig for innstilling",
+    "innvilget": true
   },
   {
     "sak": {
@@ -131,17 +48,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "2 300 000 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "0 kroner"},
-        {"tittel": "Søknadssum", "verdi": "600 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Kostnader inkluderer konsulent/kompetanse til fjellføring (520 000 kr), IT og bookingløsning (250 000 kr), visuell identitet (300 000 kr), møteutgifter (150 000 kr), prosjektledelse (690 000 kr), reise/kurs (90 000 kr) og salg/markedsføring (300 000 kr)【389331718585204†L424-L458】."}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "2 300 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "0 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "600 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Kostnader inkluderer konsulent/kompetanse til fjellføring (520 000 kr), IT og bookingløsning (250 000 kr), visuell identitet (300 000 kr), møteutgifter (150 000 kr), prosjektledelse (690 000 kr), reise/kurs (90 000 kr) og salg/markedsføring (300 000 kr)【389331718585204†L424-L458】."
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren foreslo tilskudd på 200 000 kroner (8,7 % av kostnadsrammen 2,3 mill. kr). Det ble opplyst at søker opprinnelig hadde bedt om 600 000 kroner【224143512576035†L17-L22】【224143512576035†L213-L218】.",
       "vedtak": "Kraftfondet innvilget 200 000 kroner til Stiftelsen Romsdalstur, tilsvarende 8,7 % av kostnadsrammen. Tilskuddet gis til gjennomføring av Kongeriket Romsdal og det stilles krav om prosjektregnskap og frist 30.04.2026【872442192744541†L20-L33】."
     },
-    "stemmegivning": "Enstemmig for innstilling (med Siem inhabil)"
+    "stemmegivning": "Enstemmig for innstilling (med Siem inhabil)",
+    "innvilget": true
   },
   {
     "sak": {
@@ -155,17 +85,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "66 000 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "0 kroner"},
-        {"tittel": "Søknadssum", "verdi": "66 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Kostnadene består av kurs (22 000 kr), kamerautstyr (39 000 kr) og reiseutgifter (5 000 kr)【732603949828943†L62-L74】."}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "66 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "0 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "66 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Kostnadene består av kurs (22 000 kr), kamerautstyr (39 000 kr) og reiseutgifter (5 000 kr)【732603949828943†L62-L74】."
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren foreslo investerings­tilskudd på 26 400 kroner, tilsvarende 40 % av kostnadsrammen på 66 000 kroner【732603949828943†L62-L74】.",
       "vedtak": "Tilskudd innvilget. Kraftfondet ga 26 400 kroner (40 % av kostnadene) til Hoel Foto for kurs og kamerautstyr, med krav om prosjektregnskap og frist 31.08.2024【789202013594088†L25-L30】."
     },
-    "stemmegivning": "Enstemmig for innstilling"
+    "stemmegivning": "Enstemmig for innstilling",
+    "innvilget": true
   },
   {
     "sak": {
@@ -179,17 +122,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "3 681 576 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "1 314 561 kroner"},
-        {"tittel": "Søknadssum", "verdi": "200 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Prosjektet omfatter ny driftsbygning, utsyr og infrastruktur for helårig produksjon. Finansieringen består av egeninnsats (1 314 561 kr), egenkapital (200 000 kr), annen finansiering (1 967 015 kr) og søknadssum 200 000 kr【80258858211757†L140-L176】."}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "3 681 576 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "1 314 561 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Prosjektet omfatter ny driftsbygning, utsyr og infrastruktur for helårig produksjon. Finansieringen består av egeninnsats (1 314 561 kr), egenkapital (200 000 kr), annen finansiering (1 967 015 kr) og søknadssum 200 000 kr【80258858211757†L140-L176】."
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren foreslo investerings­tilskudd på 200 000 kroner, tilsvarende 8,5 % av godkjent kostnadsramme (2 367 015 kr etter fradrag for egeninnsats)【518694531682613†L95-L100】.",
       "vedtak": "Kraftfondet innvilget 200 000 kroner til Ytterbakke Veksthus (8,5 % av godkjent kostnadsramme 2 367 015 kr). Tilskuddet gis til etablering av veksthus; prosjektregnskap skal attesteres og frist settes til 30.09.2024【251774902095291†L20-L31】."
     },
-    "stemmegivning": "Enstemmig for innstilling"
+    "stemmegivning": "Enstemmig for innstilling",
+    "innvilget": true
   },
   {
     "sak": {
@@ -203,17 +159,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": ""},
-        {"tittel": "Egeninnsats", "verdi": ""},
-        {"tittel": "Søknadssum", "verdi": "678 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Søknaden gjaldt overføring av ubenyttede midler fra tidligere bevilgning på 3 mill. kroner til støtte av idéutvikling i oppstartsbedrifter【892668019133153†L34-L66】."}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": ""
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": ""
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "678 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Søknaden gjaldt overføring av ubenyttede midler fra tidligere bevilgning på 3 mill. kroner til støtte av idéutvikling i oppstartsbedrifter【892668019133153†L34-L66】."
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren anbefalte at det resterende beløpet på 678 000 kroner utbetales til Romsdal Innovasjon for tiltak i 2024【853123227900622†L17-L35】.",
       "vedtak": "Kraftfondet innvilget overføring av 678 000 kroner til Romsdal Innovasjon for å støtte idéutvikling og gründertiltak i 2024【37314918161393†L16-L27】."
     },
-    "stemmegivning": "Enstemmig vedtak"
+    "stemmegivning": "Enstemmig vedtak",
+    "innvilget": true
   },
   {
     "sak": {
@@ -227,17 +196,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "67 150 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "0 kroner"},
-        {"tittel": "Søknadssum", "verdi": "17 150 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Kostnader omfatter prosjektledelse (24 750 kr), IT‑ressurs (11 400 kr), godtgjørelse (5 000 kr), møtelokaler (5 000 kr), servering (7 000 kr) og markedsføring (14 000 kr). Annen finansiering på 50 000 kr er sikret fra Møre og Romsdal fylkeskommune og Statsforvalteren【667750829419162†L148-L175】."}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "67 150 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "0 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "17 150 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Kostnader omfatter prosjektledelse (24 750 kr), IT‑ressurs (11 400 kr), godtgjørelse (5 000 kr), møtelokaler (5 000 kr), servering (7 000 kr) og markedsføring (14 000 kr). Annen finansiering på 50 000 kr er sikret fra Møre og Romsdal fylkeskommune og Statsforvalteren【667750829419162†L148-L175】."
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren anbefalte tilskudd på 17 150 kroner, tilsvarende 26 % av kostnadene, med krav om prosjektregnskap og frist 30.09.2024【188046823989998†L17-L43】.",
       "vedtak": "Tilskudd innvilget. Nordveggen AS mottar 17 150 kroner (26 % av kostnadene) til prosjektet \"Gården som ressurs\" med frist 30.09.2024【101829276078454†L23-L28】."
     },
-    "stemmegivning": "Enstemmig vedtak"
+    "stemmegivning": "Enstemmig vedtak",
+    "innvilget": true
   },
   {
     "sak": {
@@ -251,17 +233,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "716 000 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "189 000 kroner"},
-        {"tittel": "Søknadssum", "verdi": "100 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Budsjettet består av gravemaskin (405 000 kr), rør til snøproduksjon (220 000 kr), snøfangere (100 000 kr) og manuelt arbeid (189 000 kr). Egenkapital 52 000 kr og annen finansiering 375 000 kr dekker resten【457518772093043†L154-L181】."}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "716 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "189 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "100 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Budsjettet består av gravemaskin (405 000 kr), rør til snøproduksjon (220 000 kr), snøfangere (100 000 kr) og manuelt arbeid (189 000 kr). Egenkapital 52 000 kr og annen finansiering 375 000 kr dekker resten【457518772093043†L154-L181】."
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren innstilte på avslag fordi prosjektet ikke skaper arbeidsplasser og derfor faller utenfor fondets formål【808396490535721†L17-L49】.",
       "vedtak": "Søknaden ble avslått. Kraftfondet fulgte innstillingen og ga ingen støtte til oppgradering av Rauma Skisenter AS【494867970862160†L22-L25】."
     },
-    "stemmegivning": "Enstemmig avslag"
+    "stemmegivning": "Enstemmig avslag",
+    "innvilget": false
   },
   {
     "sak": {
@@ -275,17 +270,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "1 900 000 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "300 000 kroner"},
-        {"tittel": "Søknadssum", "verdi": "200 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Budsjettet består av ny rute (1 000 000 kr) og ekstraordinære sikkerhetstiltak (900 000 kr) med poster som forprosjekt, prosjektledelse, håndrensing/etablering, administrasjon og uforutsette utgifter. Finansiering omfatter tilskudd fra Rauma kraftfond, GassROR, Næringsfond, egenkapital m.m.【643428932526150†L16-L50】."}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "1 900 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "300 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Budsjettet består av ny rute (1 000 000 kr) og ekstraordinære sikkerhetstiltak (900 000 kr) med poster som forprosjekt, prosjektledelse, håndrensing/etablering, administrasjon og uforutsette utgifter. Finansiering omfatter tilskudd fra Rauma kraftfond, GassROR, Næringsfond, egenkapital m.m.【643428932526150†L16-L50】."
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren foreslo investerings­tilskudd på 200 000 kroner (22 % av kostnadsrammen på 900 000 kr for ekstra sikkerhet) med krav om prosjektregnskap og frist 31.08.2024【469522722386558†L17-L24】【469522722386558†L112-L116】.",
       "vedtak": "Kraftfondet innvilget 200 000 kroner til Norsk Tindesenter AS til ekstra sikkerhetstiltak i Via Ferrata-prosjektet (22 % av godkjent kostnadsramme 900 000 kr). Ida Siem ble erklært inhabil; de øvrige fire medlemmene stemte for innstillingen. Prosjektregnskap skal attesteres og frist settes til 31.08.2024【628745572642604†L20-L33】."
     },
-    "stemmegivning": "Enstemmig for innstilling (med en medlem inhabil)"
+    "stemmegivning": "Enstemmig for innstilling (med en medlem inhabil)",
+    "innvilget": true
   },
   {
     "sak": {
@@ -299,40 +307,29 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "1 000 000 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "275 000 kroner"},
-        {"tittel": "Søknadssum", "verdi": "150 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Kostnadene fordeler seg på fem deltiltak: T1 nytt opplag turguide (50 000 kr), T2 informasjonskart (100 000 kr), T3 natur‑ og kulturveiledningskurs (50 000 kr), T4 digitalt vertskapskurs (250 000 kr), T5 informasjonstiltak Raumaelva (200 000 kr) samt prosjektledelse (350 000 kr). Finansiering består av egeninnsats 275 000 kr og annen finansiering 575 000 kr【792529683574293†L185-L210】."}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "1 000 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "275 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "150 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Kostnadene fordeler seg på fem deltiltak: T1 nytt opplag turguide (50 000 kr), T2 informasjonskart (100 000 kr), T3 natur‑ og kulturveiledningskurs (50 000 kr), T4 digitalt vertskapskurs (250 000 kr), T5 informasjonstiltak Raumaelva (200 000 kr) samt prosjektledelse (350 000 kr). Finansiering består av egeninnsats 275 000 kr og annen finansiering 575 000 kr【792529683574293†L185-L210】."
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren anbefalte tilskudd på 150 000 kroner (15 % av kostnadsrammen på 1 mill. kr) til Nordveggen AS med prosjektregnskap og frist 30.04.2025【113567558991958†L17-L115】.",
       "vedtak": "Kraftfondet vedtok å gi Nordveggen AS tilskudd på 150 000 kroner til tiltak innen besøksforvaltning i 2024, som beskrevet i søknaden. Tilskuddet skal utbetales mot dokumentert regnskap og frist settes til 30.04.2025【902095485721885†L25-L31】."
     },
-    "stemmegivning": "Enstemmig for innstilling"
-  },
-  {
-    "sak": {
-      "søker": "N/A",
-      "type": "Evaluering av statuttene og rammene for Næringsprisen",
-      "dato": "2024-02-12",
-      "referanse": "PS-14/24"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "I forbindelse med revisjon av retningslinjene for Kraftfondet ble også de gjeldende statuttene for Næringsprisen tatt opp til vurdering. Saken gjaldt å evaluere om statutt­ene burde endres."
-    },
-    "budsjett": {
-      "punkter": [
-        {"tittel": "Totale kostnader", "verdi": ""},
-        {"tittel": "Egeninnsats", "verdi": ""},
-        {"tittel": "Søknadssum", "verdi": ""},
-        {"tittel": "Beskrivelse", "verdi": "Ingen økonomisk søknad; evaluering av eksisterende statutter for Næringsprisen."}
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Saken ble lagt frem uten innstilling【601593957449169†L15-L18】.",
-      "vedtak": "Styret reviderte statuttene for Næringsprisen i møtet. Dokumentet med reviderte statutter legges ved protokollen【682002270386746†L20-L27】."
-    },
-    "stemmegivning": "Enstemmig vedtak"
+    "stemmegivning": "Enstemmig for innstilling",
+    "innvilget": true
   }
 ]

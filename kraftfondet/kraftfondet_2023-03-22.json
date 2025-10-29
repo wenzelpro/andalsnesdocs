@@ -1,114 +1,6 @@
 [
   {
     "sak": {
-      "søker": "",
-      "type": "Godkjenning av møteinnkalling og saksliste; valg av protokollunderskrivere",
-      "dato": "2023-03-22",
-      "referanse": "PS-15/23"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Møteinnkalling og saksliste godkjennes. To representanter velges sammen med møteleder til å godkjenne protokollen.",
-      "vedtak": "Møteinnkalling og saksliste godkjent. David Grøvdal og Kari Moen Volle velges sammen med møteleder til å godkjenne protokollen."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Referatsaker",
-      "dato": "2023-03-22",
-      "referanse": "PS-16/23"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Saken tas til orientering.",
-      "vedtak": "Saken tas til orientering."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Orienteringssaker",
-      "dato": "2023-03-22",
-      "referanse": "PS-17/23"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Saken tas til orientering.",
-      "vedtak": "Saken tas til orientering."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
       "søker": "Tennis og Bolivar Eiendom AS",
       "type": "Søknad om investeringstilskudd til restaurering av vernet bensinstasjonsbygg og etablering av restaurant",
       "dato": "2023-03-22",
@@ -141,7 +33,8 @@
       "innstilling": "Kommunedirektøren foreslo å avslå søknaden fordi gjeldende retningslinjer ikke åpner for støtte til serveringsvirksomhet, tiltaket kan virke konkurransevridende og estimert kostnadsramme på om lag 3,5 millioner kroner ikke gjør prosjektet støtteberettiget.",
       "vedtak": "Søknaden avslås. Fondstyret fulgte innstillingen og konkluderte med at restauranten ikke faller innenfor støtteordningen, til tross for kulturminneverdien."
     },
-    "stemmegivning": "Vedtaket ble fattet mot 1 stemme (Ingunn S. Heinåli)"
+    "stemmegivning": "Vedtaket ble fattet mot 1 stemme (Ingunn S. Heinåli)",
+    "innvilget": false
   },
   {
     "sak": {
@@ -177,42 +70,7 @@
       "innstilling": "Kommunedirektøren anbefalte å innvilge et bedriftsutviklingstilskudd på 150 000 kroner (43 % av kostnadsrammen) til Stiftelsen Romsdalstur, med krav om prosjektregnskap attestert av autorisert regnskapsfører og frist for ferdigstillelse 30.11.2023.",
       "vedtak": "Det bevilges et bedriftsutviklingstilskudd på 140 000 kroner, tilsvarende 40 % av en godkjent kostnadsramme på 350 000 kroner. Tilskuddet skal utbetales mot dokumentert prosjektregnskap attestert av autorisert regnskapsfører, og prosjektet skal være avsluttet innen 30.11.2023."
     },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Kraftfondet – vedtekter og retningslinjer",
-      "dato": "2023-03-22",
-      "referanse": "PS-20/23"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren foreslo at kraftfondstyret skulle fremme forslag til nye vedtekter og retningslinjer for Rauma kommunes kraftfond.",
-      "vedtak": "Saken ble sendt videre til møte 29. mars 2023 for videre behandling av nye vedtekter og retningslinjer; det ble ikke votert over saken."
-    },
-    "stemmegivning": "Ingen votering"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   }
 ]

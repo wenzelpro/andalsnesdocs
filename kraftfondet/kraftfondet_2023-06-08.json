@@ -1,114 +1,6 @@
 [
   {
     "sak": {
-      "søker": "",
-      "type": "Godkjenning av møteinnkalling og saksliste; valg av protokollunderskrivere",
-      "dato": "2023-06-08",
-      "referanse": "PS-23/23"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren foreslo å godkjenne møteinnkalling og saksliste og anbefalte å velge Ingunn S. Heinåli og Jo-Andre Herje til å underskrive protokollen.",
-      "vedtak": "Innkalling og saksliste ble godkjent. Ingunn S. Heinåli og Jo-Andre Herje ble valgt til å underskrive protokollen sammen med møteleder."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Referatsaker",
-      "dato": "2023-06-08",
-      "referanse": "PS-24/23"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte at referatsakene tas til orientering.",
-      "vedtak": "Saken ble tatt til orientering."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Status for Kraftfondets midler",
-      "dato": "2023-06-08",
-      "referanse": "PS-25/23"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren la frem status for kraftfondets midler og anbefalte at saken tas til orientering.",
-      "vedtak": "Saken ble tatt til orientering."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
       "søker": "God Kok AS",
       "type": "Søknad om investeringstilskudd",
       "dato": "2023-06-08",
@@ -141,7 +33,8 @@
       "innstilling": "Kommunedirektøren foreslo et investeringstilskudd på 200 000 kroner (28 % av godkjent kostnadsramme) med vilkår om nødvendige tillatelser og dokumentasjon av kostnader.",
       "vedtak": "God Kok AS fikk innvilget et investeringstilskudd på 200 000 kroner (28 % av kostnadsrammen) med tilsvarende vilkår."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -177,7 +70,8 @@
       "innstilling": "Kommunedirektøren anbefalte å godkjenne et etableringstilskudd på 24 000 kroner, tilsvarende 40 % av en justert kostnadsramme på 60 000 kroner (profilering 40 000 kroner og utstyr 20 000 kroner).",
       "vedtak": "Patrick Kovar Photo&Video ble tildelt et tilskudd på 24 000 kroner (40 % av kostnadsrammen på 60 000 kroner) med krav om at midlene brukes til profilering og utstyr og dokumenteres innen 31.03.2024."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -213,6 +107,7 @@
       "innstilling": "Kommunedirektøren anbefalte avslag fordi arrangementet kan finansieres gjennom deltakeravgifter og ikke skaper ny næringsvirksomhet i Rauma.",
       "vedtak": "Søknaden ble avslått."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": false
   }
 ]

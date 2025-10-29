@@ -1,114 +1,6 @@
 [
   {
     "sak": {
-      "søker": "",
-      "type": "Godkjenning av møteinnkalling og saksliste. Valg av protokollunderskrivere",
-      "dato": "2021-02-09",
-      "referanse": "PS-1/21"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren foreslo at møteinnkalling og saksliste godkjennes, og at to representanter velges sammen med møtelederen til å underskrive protokollen.",
-      "vedtak": "Møteinnkalling og saksliste godkjennes. Jo Andre Herje og Ingunn Svelle Heinåli velges sammen med møtelederen til å underskrive protokollen. Styret i Kraftfondet presiserte at vara skal kalles inn ved kjent inhabilitet."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Referatsaker",
-      "dato": "2021-02-09",
-      "referanse": "PS-2/21"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Referatsaker tas til orientering.",
-      "vedtak": "Referatsaker tas til orientering."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Årsmelding og årsregnskap for Kraftfondet 2020",
-      "dato": "2021-02-09",
-      "referanse": "PS-3/21"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Årsmelding og årsregnskap for Kraftfondet 2020 godkjennes.",
-      "vedtak": "Årsmelding og årsregnskap for Kraftfondet 2020 godkjennes."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
       "søker": "Romsdal Reiseliv og Handel SA",
       "type": "Søknad om utvidet nedbetalingstid likviditetslån",
       "dato": "2021-02-09",
@@ -141,7 +33,8 @@
       "innstilling": "Kommunedirektøren anbefalte at den nye nedbetalingsplanen på 5 000 kroner per måned fra april 2021 til mai 2025 godkjennes.",
       "vedtak": "Kraftfondet godkjente enstemmig den nye nedbetalingsplanen der lånet nedbetales med 5 000 kroner per måned fra april 2021 til mai 2025."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -177,7 +70,8 @@
       "innstilling": "Kommunedirektøren anbefalte å innvilge etableringstilskudd på 200 000 kroner med arbeidsfrist 31.12.2021.",
       "vedtak": "Jo Andre Herje ble erklært inhabil og fratrådte behandlingen. De resterende medlemmene vedtok enstemmig å innvilge Kaia Landhandel Eiendom AS et etableringstilskudd på 200 000 kroner med arbeidsfrist 31.12.2021."
     },
-    "stemmegivning": "Enstemmig (4 stemmer)"
+    "stemmegivning": "Enstemmig (4 stemmer)",
+    "innvilget": true
   },
   {
     "sak": {
@@ -213,7 +107,8 @@
       "innstilling": "Kommunedirektøren anbefalte å avslå søknaden fordi prosjektet omfatter restauranthus og kafévirksomhet, som ikke kan støttes gjennom kraftfondet.",
       "vedtak": "Ida Siem ble erklært inhabil og fratrådte møtet. De resterende medlemmene stemte enstemmig for innstillingen og avslo søknaden fordi prosjektet faller utenfor ordningen."
     },
-    "stemmegivning": "Enstemmig (4 stemmer)"
+    "stemmegivning": "Enstemmig (4 stemmer)",
+    "innvilget": false
   },
   {
     "sak": {
@@ -249,6 +144,7 @@
       "innstilling": "Kommunedirektøren foreslo å gi et investeringstilskudd på 200 000 kroner (40 %) og satte arbeidsfrist til 31.12.2021.",
       "vedtak": "Ida Siem ble erklært inhabil. De øvrige medlemmene stemte enstemmig for innstillingen og innvilget Topptur Sport AS et investeringstilskudd på 200 000 kroner. Arbeidsfrist settes til 31.12.2021."
     },
-    "stemmegivning": "Enstemmig (4 stemmer)"
+    "stemmegivning": "Enstemmig (4 stemmer)",
+    "innvilget": true
   }
 ]
