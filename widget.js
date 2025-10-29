@@ -18,13 +18,28 @@
     if(Number.isFinite(na)&&Number.isFinite(nb)&&na!==nb) return na-nb;
     return ra.localeCompare(rb,'nb');
   };
+  const parseDate = (value)=>{
+    if(!value) return null;
+    const trimmed=String(value).trim();
+    if(!trimmed) return null;
+    const direct=new Date(trimmed);
+    if(!Number.isNaN(direct?.getTime?.())) return direct;
+    const match=trimmed.match(/^(\\d{1,2})\.(\\d{1,2})\.(\\d{4})$/);
+    if(match){
+      const [,dd,mm,yyyy]=match;
+      const parsed=new Date(Number(yyyy), Number(mm)-1, Number(dd));
+      if(!Number.isNaN(parsed?.getTime?.())) return parsed;
+    }
+    return null;
+  };
+
 
   async function run(){
     const root = document.getElementById('kraftfondet-app') || (()=>{ const d=document.createElement('div'); d.id='kraftfondet-app'; document.body.appendChild(d); return d; })();
     const accordion = $('#kf-accordion', root);
     const searchInput = $('#kf-search', root);
-    const btnExpand = $('#kf-expand', root);
-    const btnCollapse = $('#kf-collapse', root);
+
+    let flat=[]; let focusables=[]; let allCases=[];
 
     // theme/primary
     root.setAttribute('data-theme', root.getAttribute('data-theme') || 'auto');
@@ -32,45 +47,80 @@
 
     const manifestURL = root.getAttribute('data-manifest') || 'https://andalsnesdocs.github.io/kraftfondet/manifest.json';
 
-    let flat=[]; let focusables=[];
     const clearAccordion=()=>{ while(accordion.firstChild) accordion.removeChild(accordion.firstChild); };
-    const addSection=(title)=>{ const s=document.createElement('section'); s.className='kf-section'; const h=document.createElement('div'); h.className='kf-section-title'; h.textContent=title||'Møte'; s.appendChild(h); accordion.appendChild(s); return s; };
-    const addItem=(section, e)=>{
+    const addSection=(title)=>{ const s=document.createElement('section'); s.className='kf-section'; const h=document.createElement('div'); h.className='kf-section-title'; h.textContent=title||'Udatert'; s.appendChild(h); accordion.appendChild(s); return s; };
+    const addItem=(section, entry)=>{
+      const { id, seeker, type, dateString, reference, projectText, budgets, decisionText, meetingInfo } = entry;
       const item=document.createElement('div'); item.className='kf-item';
       const btn=document.createElement('button'); btn.className='kf-summary'; btn.type='button'; btn.setAttribute('aria-expanded','false');
       const left=document.createElement('div');
       const title=document.createElement('div'); title.className='kf-title';
-      const seeker=(e?.sak?.søker||'Ukjent søker').trim(); const ref=e?.sak?.referanse?` · ${e.sak.referanse}`:'';
-      title.textContent=seeker+ref;
-      const sub=document.createElement('div'); sub.className='kf-meta'; sub.textContent=e?.sak?.type||'';
-      left.appendChild(title); left.appendChild(sub);
-      const right=document.createElement('div'); right.className='kf-right'; right.textContent=e?.sak?.dato||'';
+      title.textContent=[seeker, type].filter(Boolean).join(' – ') || 'Ukjent sak';
+      left.appendChild(title);
+      const metaText=meetingInfo?.trim?.()||'';
+      if(metaText){ const sub=document.createElement('div'); sub.className='kf-meta'; sub.textContent=metaText; left.appendChild(sub); }
+      const right=document.createElement('div'); right.className='kf-right'; right.textContent=dateString||'';
       btn.appendChild(left); btn.appendChild(right);
       const panel=document.createElement('div'); panel.className='kf-panel'; panel.setAttribute('role','region');
-      const proj=e?.prosjektbeskrivelse?.tekst, bud=formatBudget(e?.budsjett?.punkter), ved=e?.vedtak?.vedtak;
-      panel.innerHTML=`${proj?`<p><strong>Prosjekt:</strong> ${proj}</p>`:''}${bud?`<p><strong>Budsjett (utdrag):</strong> ${bud}</p>`:''}<p><strong>Vedtak:</strong> ${ved||'—'}</p>`;
-      const id=slugify(`${e?.sak?.dato||''}-${e?.sak?.referanse||seeker}`); panel.id=id; btn.setAttribute('aria-controls', id);
-      btn.addEventListener('click',()=>{ const open=panel.classList.toggle('open'); btn.setAttribute('aria-expanded', String(open)); if(open){ try{ panel.scrollIntoView({behavior:'smooth', block:'nearest'});}catch{}} if(open){ history.replaceState(null,'',`#${id}`);} });
+      const metaLines=[];
+      if(dateString) metaLines.push(`<div><strong>Dato:</strong> ${dateString}</div>`);
+      if(reference) metaLines.push(`<div><strong>Referanse:</strong> ${reference}</div>`);
+      panel.innerHTML=`${projectText?`<p><strong>Prosjekt:</strong> ${projectText}</p>`:''}${budgets?`<p><strong>Budsjett (utdrag):</strong> ${budgets}</p>`:''}<p><strong>Vedtak:</strong> ${decisionText||'—'}</p>${metaLines.length?`<div class="kf-panel-meta">${metaLines.join('')}</div>`:''}`;
+      panel.id=id; btn.setAttribute('aria-controls', id);
+      btn.addEventListener('click',()=>{
+        const willOpen=!panel.classList.contains('open');
+        flat.forEach(({panel:p, btn:b})=>{ if(p!==panel){ p.classList.remove('open'); b.setAttribute('aria-expanded','false'); } });
+        if(willOpen){
+          panel.classList.add('open');
+          btn.setAttribute('aria-expanded','true');
+          try{ panel.scrollIntoView({behavior:'smooth', block:'nearest'});}catch{}
+          try{ history.replaceState(null,'',`#${id}`);}catch{}
+        }else{
+          panel.classList.remove('open');
+          btn.setAttribute('aria-expanded','false');
+          try{ history.replaceState(null,'', location.pathname + location.search); }catch{}
+        }
+      });
       item.appendChild(btn); item.appendChild(panel); section.appendChild(item);
       flat.push({btn, panel, id}); return item;
     };
-    const render=(meetings, q='')=>{
-      clearAccordion(); flat=[]; let any=false;
-      for(const m of meetings){
-        const rel=m.rows.filter(isRelevant);
-        if(!rel.length) continue;
-        const filtered = !q ? rel : rel.filter(e=>{
-          const hay=[e?.sak?.søker, e?.sak?.type, e?.sak?.referanse, e?.prosjektbeskrivelse?.tekst, e?.vedtak?.vedtak].join(' ').toLowerCase();
-          return hay.includes(q.toLowerCase());
+    const render=(cases, q='')=>{
+      clearAccordion(); flat=[]; let any=false; const usedIds=new Set();
+      const normalizedQ=(q||'').toLowerCase();
+      const filtered=!normalizedQ?cases:cases.filter(entry=> entry.haystack.includes(normalizedQ));
+      const grouped=new Map();
+      for(const entry of filtered){
+        if(!grouped.has(entry.year)) grouped.set(entry.year, []);
+        grouped.get(entry.year).push(entry);
+      }
+      const yearValue=(year)=> year==='Udatert' ? Number.NEGATIVE_INFINITY : Number(year)||Number.NEGATIVE_INFINITY;
+      const years=Array.from(grouped.keys()).sort((a,b)=> yearValue(b)-yearValue(a));
+      for(const year of years){
+        const section=addSection(year);
+        grouped.get(year).forEach(entry=>{
+          let uniqueId=entry.id;
+          if(usedIds.has(uniqueId)){
+            let suffix=2;
+            while(usedIds.has(`${entry.id}-${suffix}`)) suffix+=1;
+            uniqueId=`${entry.id}-${suffix}`;
+          }
+          usedIds.add(uniqueId);
+          addItem(section, { ...entry, id:uniqueId });
         });
-        if(!filtered.length) continue;
-        const section=addSection(m.meta.tittel||`Møte ${m.meta.dato||''}`);
-        filtered.sort(compareRef).forEach(e=>addItem(section,e));
         any=true;
       }
-      if(!any){ const empty=document.createElement('div'); empty.className='kf-empty'; empty.textContent='Ingen saker matchet filtrene.'; accordion.appendChild(empty); }
-      focusables = $$('.kf-summary', accordion);
-    };
+    if(!any){ const empty=document.createElement('div'); empty.className='kf-empty'; empty.textContent='Ingen saker matchet filtrene.'; accordion.appendChild(empty); }
+    focusables = $$('.kf-summary', accordion);
+    const currentHash=location.hash?location.hash.slice(1):'';
+    if(currentHash){
+      const match=flat.find(x=>x.id===currentHash);
+      if(match){
+        flat.forEach(({panel:p, btn:b})=>{ if(p!==match.panel){ p.classList.remove('open'); b.setAttribute('aria-expanded','false'); } });
+        match.panel.classList.add('open');
+        match.btn.setAttribute('aria-expanded','true');
+      }
+    }
+  };
 
     accordion.addEventListener('keydown', (ev)=>{
       const idx = focusables.indexOf(document.activeElement); if(idx===-1) return;
@@ -93,20 +143,51 @@
           catch(_){ return { meta:m, rows: [] }; }
         }));
         meetings.sort((a,b)=> String(a.meta?.dato||'').localeCompare(String(b.meta?.dato||'')));
-        render(meetings, searchInput?.value||'');
+        const cases=[];
+        for(const m of meetings){
+          const meetingTitle=m.meta?.tittel||'';
+          const meetingDate=m.meta?.dato||'';
+          const meetingInfo=[meetingTitle, meetingDate].filter(Boolean).join(' – ');
+          for(const row of m.rows.filter(isRelevant)){
+            const seeker=(row?.sak?.søker||'Ukjent søker').trim();
+            const type=(row?.sak?.type||'').trim();
+            const dateString=row?.sak?.dato||'';
+            const dateValue=parseDate(dateString);
+            const reference=(row?.sak?.referanse||'').trim();
+            const year=dateValue? String(dateValue.getFullYear()) : 'Udatert';
+            const budgets=formatBudget(row?.budsjett?.punkter);
+            const projectText=row?.prosjektbeskrivelse?.tekst||'';
+            const decisionText=row?.vedtak?.vedtak||'';
+            const haystack=[seeker, type, reference, projectText, decisionText, meetingTitle, meetingDate, dateString].join(' ').toLowerCase();
+            let baseId=slugify(`${dateString||''}-${reference||''}-${seeker||''}-${type||''}`);
+            if(!baseId) baseId=slugify(`${year}-${reference||''}-${Math.random()}`);
+            cases.push({ raw:row, seeker, type, reference, dateString, dateValue, year, budgets, projectText, decisionText, haystack, id:baseId, meetingInfo });
+          }
+        }
+        cases.sort((a,b)=>{
+          const ta = a.dateValue? a.dateValue.getTime(): Number.NEGATIVE_INFINITY;
+          const tb = b.dateValue? b.dateValue.getTime(): Number.NEGATIVE_INFINITY;
+          if(tb!==ta) return tb-ta;
+          const refCmp=compareRef(a.raw, b.raw);
+          if(refCmp!==0) return refCmp;
+          return a.seeker.localeCompare(b.seeker,'nb');
+        });
+        allCases=cases;
+        render(allCases, searchInput?.value||'');
         if(location.hash){
           const id=location.hash.slice(1); const match=flat.find(x=>x.id===id);
-          if(match){ match.panel.classList.add('open'); match.btn.setAttribute('aria-expanded','true'); try{ document.getElementById(id).scrollIntoView({behavior:'smooth', block:'start'});}catch{} }
+          if(match){
+            flat.forEach(({panel:p, btn:b})=>{ if(p!==match.panel){ p.classList.remove('open'); b.setAttribute('aria-expanded','false'); } });
+            match.panel.classList.add('open'); match.btn.setAttribute('aria-expanded','true');
+            try{ document.getElementById(id).scrollIntoView({behavior:'smooth', block:'start'});}catch{}
+          }
         }
       }catch(e){ showError(e.message); }
     }
 
-    searchInput?.addEventListener('input', debounce(()=>load(), 200));
-    btnExpand?.addEventListener('click', ()=>{ $$('.kf-panel',accordion).forEach(p=>p.classList.add('open')); $$('.kf-summary',accordion).forEach(b=>b.setAttribute('aria-expanded','true')); });
-    btnCollapse?.addEventListener('click', ()=>{ $$('.kf-panel',accordion).forEach(p=>p.classList.remove('open')); $$('.kf-summary',accordion).forEach(b=>b.setAttribute('aria-expanded','false')); });
+    searchInput?.addEventListener('input', debounce(()=> render(allCases, searchInput.value||''), 150));
 
     load();
   }
-
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', run); else run();
 })();
