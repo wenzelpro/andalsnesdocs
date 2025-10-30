@@ -11,17 +11,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "621 000 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "166 000 kroner"},
-        {"tittel": "Søknadssum", "verdi": "170 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Snekkerarbeid, ramme, tjukkas, klatretak, lys og styringssystem til kilterboard"}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "621 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "166 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "170 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Snekkerarbeid, ramme, tjukkas, klatretak, lys og styringssystem til kilterboard"
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren foreslo et investeringstilskudd på 170 000 kroner (37 % av en godkjent kostnadsramme på 455 000 kroner) med krav om revidert prosjektregnskap. Begrunnelsen var at kilterboardet vil øke hallens attraktivitet, skape positiv verdiskaping og ha liten klimabelastning.",
       "vedtak": "Kraftfondet innvilget 170 000 kroner i investeringstilskudd (37 % av kostnadsrammen) til kilterboardet. Tilskuddet utbetales når et attestert prosjektregnskap foreligger."
     },
-    "stemmegivning": "Enstemmig vedtatt"
+    "stemmegivning": "Enstemmig vedtatt",
+    "innvilget": true
   },
   {
     "sak": {
@@ -35,17 +48,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "428 798 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "798 kroner"},
-        {"tittel": "Søknadssum", "verdi": "106 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Elektroniske hylleetiketter, nytt kjøleskap med dører, installasjon og mindre dugnadsarbeid"}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "428 798 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "798 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "106 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Elektroniske hylleetiketter, nytt kjøleskap med dører, installasjon og mindre dugnadsarbeid"
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren anbefalte et investeringstilskudd på 106 000 kroner, tilsvarende 25 % av godkjent kostnadsramme på 428 798 kroner, med krav om prosjektregnskap innen 31.12.2025. Begrunnelse: tiltaket gir energieffektivisering, redusert matsvinn og forbedrer kundeservice uten å skape konkurransevridning.",
       "vedtak": "Kraftfondet bevilget 106 000 kroner til prosjektet med samme vilkår som innstillingen."
     },
-    "stemmegivning": "Enstemmig vedtatt"
+    "stemmegivning": "Enstemmig vedtatt",
+    "innvilget": true
   },
   {
     "sak": {
@@ -59,17 +85,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "2 041 655 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "341 655 kroner"},
-        {"tittel": "Søknadssum", "verdi": "200 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Ombygging av lokale, VVS, elektro, ventilasjon, møbler og byggesøknad"}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "2 041 655 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "341 655 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "200 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Ombygging av lokale, VVS, elektro, ventilasjon, møbler og byggesøknad"
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren anbefalte å avslå søknaden fordi prosjektet hovedsakelig er eiendomsutvikling som faller utenfor kraftfondets formål, og fordi støtte kunne gi konkurransevridning.",
       "vedtak": "Søknaden ble avslått. Kraftfondet mente at selv om prosjektet var positivt, er det ikke støtteberettiget da fondet ikke skal finansiere eiendomsutvikling og fordi det kan medføre konkurransevridning."
     },
-    "stemmegivning": "Enstemmig avslag"
+    "stemmegivning": "Enstemmig avslag",
+    "innvilget": false
   },
   {
     "sak": {
@@ -83,17 +122,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "225 000 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "10 000 kroner"},
-        {"tittel": "Søknadssum", "verdi": "50 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Kortterminal 145 000 kroner, installasjon og montering 30 000 kroner, levegg 40 000 kroner, dugnadsarbeid 10 000 kroner"}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "225 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "10 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "50 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Kortterminal 145 000 kroner, installasjon og montering 30 000 kroner, levegg 40 000 kroner, dugnadsarbeid 10 000 kroner"
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren anbefalte et tilskudd på 50 000 kroner (39 % av godkjent kostnadsramme på 127 500 kroner) med vilkår om prosjektregnskap. Innstillingen bygget på at oppgraderingen styrker servicetilbudet i bygda og har liten konkurransevridende effekt.",
       "vedtak": "Kraftfondet bevilget 50 000 kroner i investeringstilskudd med de samme vilkårene."
     },
-    "stemmegivning": "Enstemmig vedtatt"
+    "stemmegivning": "Enstemmig vedtatt",
+    "innvilget": true
   },
   {
     "sak": {
@@ -107,17 +159,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "430 000 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "150 000 kroner"},
-        {"tittel": "Søknadssum", "verdi": "112 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Innholdsproduksjon 180 000 kroner, organisering og oppbygging 50 000 kroner, kvalitetssikring 30 000 kroner, evaluering og videreutvikling 20 000 kroner"}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "430 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "150 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "112 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Innholdsproduksjon 180 000 kroner, organisering og oppbygging 50 000 kroner, kvalitetssikring 30 000 kroner, evaluering og videreutvikling 20 000 kroner"
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren foreslo et tilskudd på 112 000 kroner, tilsvarende 40 % av godkjent kostnadsramme på 280 000 kroner, med krav om prosjektregnskap innen 1.9.2025. Innstillingen fremhevet at det digitale kurset fremmer bærekraftig opplæring, støtter reiselivsstrategien og styrker kompetanse i området.",
       "vedtak": "Kraftfondet innvilget 112 000 kroner i tilskudd til det digitale vertskapskurset med de samme vilkårene."
     },
-    "stemmegivning": "Enstemmig vedtatt"
+    "stemmegivning": "Enstemmig vedtatt",
+    "innvilget": true
   },
   {
     "sak": {
@@ -131,17 +196,30 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "435 000 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "261 000 kroner"},
-        {"tittel": "Søknadssum", "verdi": "174 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Kjølerom, honningutstyr, yoghurtutstyr, arbeidsbenker, kjøttkvern, vakuumpakker, fryser, vekter og etiketteringsutstyr, markedsføring, produktutprøving og kurs"}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "435 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "261 000 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "174 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Kjølerom, honningutstyr, yoghurtutstyr, arbeidsbenker, kjøttkvern, vakuumpakker, fryser, vekter og etiketteringsutstyr, markedsføring, produktutprøving og kurs"
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren anbefalte at Vera Simonsson AS får et investeringstilskudd på 174 000 kroner (40 % av godkjent kostnadsramme på 435 000 kroner) mot at det leveres et attestert prosjektregnskap innen 31.5.2025. Begrunnelsen var at investeringen støtter lokal verdiskaping, arbeidsplasser og bærekraftig matproduksjon.",
       "vedtak": "Kraftfondet tildelte 174 000 kroner i tilskudd til gårdsproduksjon og utstyr i tråd med innstillingen."
     },
-    "stemmegivning": "Enstemmig vedtatt"
+    "stemmegivning": "Enstemmig vedtatt",
+    "innvilget": true
   },
   {
     "sak": {
@@ -155,16 +233,29 @@
     },
     "budsjett": {
       "punkter": [
-        {"tittel": "Totale kostnader", "verdi": "500 000 kroner"},
-        {"tittel": "Egeninnsats", "verdi": "323 600 kroner"},
-        {"tittel": "Søknadssum", "verdi": "172 000 kroner"},
-        {"tittel": "Beskrivelse", "verdi": "Fotoshoot, administrasjon hos SJ/Hotel Aak/Visit Nordvest, markedsføring, samarbeid med SJ, rådgivning og ulike arrangementer"}
+        {
+          "tittel": "Totale kostnader",
+          "verdi": "500 000 kroner"
+        },
+        {
+          "tittel": "Egeninnsats",
+          "verdi": "323 600 kroner"
+        },
+        {
+          "tittel": "Søknadssum",
+          "verdi": "172 000 kroner"
+        },
+        {
+          "tittel": "Beskrivelse",
+          "verdi": "Fotoshoot, administrasjon hos SJ/Hotel Aak/Visit Nordvest, markedsføring, samarbeid med SJ, rådgivning og ulike arrangementer"
+        }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren foreslo et tilskudd på 172 000 kroner, tilsvarende 40 % av godkjent kostnadsramme på 430 000 kroner (etter fradrag for egeninnsats), mot at prosjektregnskap attesteres og frist settes til 1. april 2026. Innstillingen fremhevet at prosjektet bidrar til helårsturisme, samarbeid og bærekraftig transport.",
       "vedtak": "Kraftfondet innvilget 172 000 kroner i tilskudd til Toppturtoget med de foreslåtte vilkårene."
     },
-    "stemmegivning": "Enstemmig vedtatt"
+    "stemmegivning": "Enstemmig vedtatt",
+    "innvilget": true
   }
 ]

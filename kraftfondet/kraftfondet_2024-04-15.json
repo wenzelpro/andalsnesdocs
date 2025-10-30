@@ -33,7 +33,8 @@
       "innstilling": "Kommunedirektøren foreslo et investeringstilskudd på 200 000 kroner, tilsvarende 11,3 % av den godkjente kostnadsrammen på 1 764 956 kroner. Innstillingen begrunnes med at prosjektet gir nye markedsmuligheter i Finland og forventes å øke eksporten. Det settes krav til prosjektregnskap attestert av autorisert regnskapsfører og arbeidsfrist 30.09.2024.",
       "vedtak": "Kraftfondet bevilget et investeringstilskudd på 200 000 kroner til Wonderland AS, tilsvarende 11,3 % av kostnadsrammen 1 764 956 kroner. Prosjektregnskap skal dokumenteres og arbeidsfristen settes til 30.09.2024; vedtaket er i tråd med innstillingen."
     },
-    "stemmegivning": "Enstemmig vedtatt"
+    "stemmegivning": "Enstemmig vedtatt",
+    "innvilget": true
   },
   {
     "sak": {
@@ -69,7 +70,8 @@
       "innstilling": "Kommunedirektøren anbefalte at søknaden avslås fordi tiltakshaver allerede hadde mottatt det maksimale tilskuddsbeløpet på 200 000 kroner i 2023. Selv om prosjektet ellers oppfyller fondets formål, er det ikke anledning til å innvilge ytterligere midler.",
       "vedtak": "Kraftfondets flertall vedtok å avslå søknaden. Et alternativt forslag om 100 000 kroner fikk to stemmer og falt; deretter ble innstillingen om avslag vedtatt."
     },
-    "stemmegivning": "Enstemmig avslag etter at et alternativt forslag ble nedstemt"
+    "stemmegivning": "Enstemmig avslag etter at et alternativt forslag ble nedstemt",
+    "innvilget": false
   },
   {
     "sak": {
@@ -105,7 +107,8 @@
       "innstilling": "Kommunedirektøren foreslo et investeringstilskudd på 200 000 kroner, som utgjør 20 % av en godkjent kostnadsramme på 1 000 000 kroner. Innstillingen la vekt på at prosjektet styrker turisme og næringsliv og øker kunnskapen om Raumabanens historie.",
       "vedtak": "Kraftfondet bevilget 200 000 kroner til Raumabanen 100 år, tilsvarende 20 % av en godkjent kostnadsramme på 1 000 000 kroner. Prosjektregnskap skal dokumenteres av autorisert regnskapsfører, og frist for gjennomføring er 31.10.2024."
     },
-    "stemmegivning": "Enstemmig vedtatt"
+    "stemmegivning": "Enstemmig vedtatt",
+    "innvilget": true
   },
   {
     "sak": {
@@ -141,7 +144,8 @@
       "innstilling": "Kommunedirektøren anbefalte å tildele 100 000 kroner til Nordveggen AS, tilsvarende 12,5 % av den godkjente kostnadsrammen på 800 000 kroner. Innstillingen la vekt på at prosjektet bygger på tidligere utviklingsprosjekter og kan gi synergier for den lokale industrien.",
       "vedtak": "Kraftfondet innvilget et investeringstilskudd på 100 000 kroner, som utgjør 12,5 % av kostnadsrammen 800 000 kroner. Det settes krav om prosjektregnskap attestert av autorisert regnskapsfører, og frist for gjennomføring er 31.08.2024."
     },
-    "stemmegivning": "Enstemmig vedtatt"
+    "stemmegivning": "Enstemmig vedtatt",
+    "innvilget": true
   },
   {
     "sak": {
@@ -177,7 +181,8 @@
       "innstilling": "Kommunedirektøren foreslo et investeringstilskudd på 200 000 kroner, tilsvarende 18 % av en godkjent kostnadsramme på 1 120 000 kroner. Innstillingen fremhevet at prosjektet gir lavere transportkostnader, reduserer miljøbelastning og styrker kultur‑ og reiselivstilbudet i regionen.",
       "vedtak": "Kraftfondet bevilget et investeringstilskudd på 200 000 kroner til Plan B Romsdalen AS, tilsvarende 18 % av kostnadsrammen 1 120 000 kroner. Det settes krav om prosjektregnskap attestert av autorisert regnskapsfører, og arbeidsfristen er 30.11.2025."
     },
-    "stemmegivning": "Enstemmig vedtatt"
+    "stemmegivning": "Enstemmig vedtatt",
+    "innvilget": true
   },
   {
     "sak": {
@@ -213,6 +218,7 @@
       "innstilling": "Kommunedirektøren foreslo et investeringstilskudd på 100 000 kroner, tilsvarende 25 % av en godkjent kostnadsramme på 400 000 kroner. Innstillingen la vekt på at boken vil styrke kulturarv, friluftsliv og turisme i Rauma, og gi positive ringvirkninger selv om prosjektet ikke direkte skaper nye arbeidsplasser.",
       "vedtak": "Kraftfondet bevilget et investeringstilskudd på 100 000 kroner til Aasheim Stein P ENK, som utgjør 25 % av kostnadsrammen 400 000 kroner. Tilskuddsmottakeren skal fremlegge prosjektregnskap attestert av autorisert regnskapsfører, og arbeidsfristen settes til 31.10.2025."
     },
-    "stemmegivning": "Enstemmig vedtatt"
+    "stemmegivning": "Enstemmig vedtatt",
+    "innvilget": true
   }
 ]

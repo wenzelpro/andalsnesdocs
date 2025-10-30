@@ -33,7 +33,8 @@
       "innstilling": "Kommunedirektøren foreslo å innvilge 100 000 kroner (40 % av kostnadsrammen) i støtte til Innovasjonsfestivalen, med en sluttfrist 30.11.2025, fordi festivalen fremmer innovasjon, nettverk og profilering av Rauma.",
       "vedtak": "Fondet innvilget 100 000 kroner til festivalen i samsvar med innstillingen; midlene skal brukes til planlagte tiltak og regnskap må dokumenteres."
     },
-    "stemmegivning": "Enstemmig vedtak"
+    "stemmegivning": "Enstemmig vedtak",
+    "innvilget": true
   },
   {
     "sak": {
@@ -69,7 +70,8 @@
       "innstilling": "Kommunedirektøren foreslo et tilskudd på 100 000 kroner (25 % av budsjettrammen 400 000 kroner) for å dekke prosjektkostnader, fordi tiltaket legger til rette for bedre rekruttering og integrering i arbeidslivet.",
       "vedtak": "Fondet innvilget 100 000 kroner i tråd med innstillingen; tilskuddet skal gå til utvikling av kurset."
     },
-    "stemmegivning": "Enstemmig vedtak"
+    "stemmegivning": "Enstemmig vedtak",
+    "innvilget": true
   },
   {
     "sak": {
@@ -105,7 +107,8 @@
       "innstilling": "Kommunedirektøren foreslo investeringstilskudd på 200 000 kroner (40 % av kostnadsrammen 500 000 kroner) til modernisering av portalen, fordi den gir bedre informasjon og markedsføring av lokale arrangementer.",
       "vedtak": "Fondet innvilget inntil 200 000 kroner i samsvar med innstillingen, og krevde prosjektregnskap og overholdelse av tidsfrister."
     },
-    "stemmegivning": "Enstemmig vedtak"
+    "stemmegivning": "Enstemmig vedtak",
+    "innvilget": true
   },
   {
     "sak": {
@@ -141,7 +144,8 @@
       "innstilling": "Kommunedirektøren foreslo et tilskudd på 200 000 kroner (cirka 28,6 % av kostnadsrammen 700 000 kroner) til investering i ny produksjonslinje for pressing, pasteurisering og tapping av eple- og siderprodukter, med krav om rapportering og sluttfrist.",
       "vedtak": "Fondet innvilget 200 000 kroner i samsvar med innstillingen og stilte krav til dokumentasjon av kostnader og fremdrift."
     },
-    "stemmegivning": "Enstemmig vedtak"
+    "stemmegivning": "Enstemmig vedtak",
+    "innvilget": true
   },
   {
     "sak": {
@@ -177,7 +181,8 @@
       "innstilling": "Kommunedirektøren anbefalte et investeringstilskudd på 150 000 kroner (40 % av kostnadsrammen 375 000 kroner) til kjøp av 25 nettbrett for digitalisering av produksjonsprosesser.",
       "vedtak": "Søknaden ble avslått. Fondet ønsket ikke å støtte rene investeringer som kan skape presedens."
     },
-    "stemmegivning": "Enstemmig avslag"
+    "stemmegivning": "Enstemmig avslag",
+    "innvilget": false
   },
   {
     "sak": {
@@ -213,7 +218,8 @@
       "innstilling": "Kommunedirektøren foreslo å innvilge 200 000 kroner (40 % av kostnadsrammen 500 000 kroner) til utvikling av en helårs lavutslippsopplevelsesportefølje, fordi prosjektet fremmer bærekraftig reiseliv og samarbeid mellom lokale aktører.",
       "vedtak": "En medlem ble erklært inhabil; de resterende medlemmene vedtok enstemmig å bevilge 200 000 kroner i tråd med innstillingen og stilte krav til rapportering."
     },
-    "stemmegivning": "Enstemmig vedtak"
+    "stemmegivning": "Enstemmig vedtak",
+    "innvilget": true
   },
   {
     "sak": {
@@ -249,7 +255,8 @@
       "innstilling": "Kommunedirektøren anbefalte å innvilge 200 000 kroner (35 % av kostnadsrammen 568 059 kroner) som investeringstilskudd til produksjonsutstyr, med frist 31.07.2026, fordi prosjektet bidrar til lokal matproduksjon og agro‑turisme.",
       "vedtak": "Fondet innvilget 200 000 kroner i samsvar med innstillingen; støtten skal brukes til utstyr, opplæring og markedsføring og krever prosjektregnskap."
     },
-    "stemmegivning": "Enstemmig vedtak"
+    "stemmegivning": "Enstemmig vedtak",
+    "innvilget": true
   },
   {
     "sak": {
@@ -285,7 +292,8 @@
       "innstilling": "Kommunedirektøren anbefalte et tilskudd på 41 750 kroner (40 % av kostnadsrammen 104 375 kroner) til profilering og markedsføring av Talstad og Morstøl Gods, ettersom prosjektet bidrar til etablering av en ny lokal opplevelsesbedrift.",
       "vedtak": "Fondet vedtok å gi 41 750 kroner i samsvar med innstillingen og krevde prosjektregnskap og sluttfrist 31.07.2026."
     },
-    "stemmegivning": "Enstemmig vedtak"
+    "stemmegivning": "Enstemmig vedtak",
+    "innvilget": true
   },
   {
     "sak": {
@@ -321,7 +329,8 @@
       "innstilling": "Kommunedirektøren foreslo å innvilge 86 912 kroner (40 % av kostnadsrammen 217 280 kroner) til utendørs kinovisning av filmen «Trango», begrunnet med at arrangementet gir nasjonal markedsføring av kommunen.",
       "vedtak": "Ett medlem ble erklært inhabil; de øvrige fire medlemmene vedtok enstemmig å innvilge 86 912 kroner i samsvar med innstillingen, med krav om prosjektregnskap og sluttfrist 31.10.2025."
     },
-    "stemmegivning": "Enstemmig vedtak"
+    "stemmegivning": "Enstemmig vedtak",
+    "innvilget": true
   },
   {
     "sak": {
@@ -357,6 +366,7 @@
       "innstilling": "Kommunedirektøren foreslo å innvilge inntil 200 000 kroner (omtrent 4 % av kostnadsrammen 4 916 750 kroner) for etablering av ny veg til gården, med frist 30.06.2026, fordi prosjektet gir sikrere og mer helårs tilgjengelighet til landbruks- og skogsarealer.",
       "vedtak": "Vedtaket var ikke tilgjengelig i kildene jeg hadde tilgang til, så endelig vedtak og stemmegivning kunne ikke fastslås."
     },
-    "stemmegivning": "Ukjent"
+    "stemmegivning": "Ukjent",
+    "innvilget": false
   }
 ]

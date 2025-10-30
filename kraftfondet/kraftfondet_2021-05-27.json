@@ -1,78 +1,6 @@
 [
   {
     "sak": {
-      "søker": "",
-      "type": "Godkjenning av møteinnkalling og saksliste. Valg av protokollunderskrivere",
-      "dato": "2021-05-27",
-      "referanse": "PS-14/21"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte å godkjenne møteinnkalling og saksliste samt å velge to representanter sammen med møteleder til å undertegne protokollen.",
-      "vedtak": "Møteinnkalling og saksliste ble godkjent. Jo Andre Herje og Ingunn Svelle Heinåli ble valgt sammen med møteleder til å underskrive protokollen."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Referatsaker",
-      "dato": "2021-05-27",
-      "referanse": "PS-15/21"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren foreslo at referatsaker tas til orientering.",
-      "vedtak": "Referatsakene ble tatt til orientering."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
       "søker": "Woldstad Gard – Gudrun Enga Woldstad",
       "type": "Søknad om bedriftsutviklingstilskudd",
       "dato": "2021-05-27",
@@ -105,7 +33,8 @@
       "innstilling": "Kommunedirektøren anbefalte avslag fordi Kraftfondets retningslinjer ikke tillater støtte til serverings­virksomhet.",
       "vedtak": "Avslag. Fondet ønsket ikke å gi støtte til sommer­kafé og investeringer som går ut over retningslinjene."
     },
-    "stemmegivning": "Enstemmig avslag"
+    "stemmegivning": "Enstemmig avslag",
+    "innvilget": false
   },
   {
     "sak": {
@@ -141,7 +70,8 @@
       "innstilling": "Kommunedirektøren foreslo tilskudd på 100 000 kroner fordi Innovasjonsfestivalen har blitt et viktig arrangement for å skape innovasjon, samarbeid og synlighet for Rauma.",
       "vedtak": "Tilskudd på 100 000 kroner til Innovasjonsfestivalen 2021 ble vedtatt. Arbeidsfristen er 31.12.2021."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -177,7 +107,8 @@
       "innstilling": "Kommunedirektøren anbefalte investeringstilskudd på 100 000 kroner til utvidelse av Via Ferrata, med frist 31.12.2021, fordi tiltaket øker kapasiteten og utvikler turistproduktet.",
       "vedtak": "Tilskudd på 100 000 kroner til etablering av nye Via Ferrata‑ruter ble vedtatt med arbeidsfrist 31.12.2021."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -213,7 +144,8 @@
       "innstilling": "Kommunedirektøren anbefalte avslag. Utvinning av kryptovaluta regnes som finansiell tjeneste og faller utenfor Kraftfondets støtteordning.",
       "vedtak": "Søknaden ble avslått. Fondet ga ikke støtte til investeringen i kryptomineringsutstyr."
     },
-    "stemmegivning": "Enstemmig avslag"
+    "stemmegivning": "Enstemmig avslag",
+    "innvilget": false
   },
   {
     "sak": {
@@ -249,7 +181,8 @@
       "innstilling": "Kommunedirektøren anbefalte å innvilge et bedriftsutviklingstilskudd på 200 000 kroner. Søkerens opprinnelige beløp på 150 000 ble justert til 200 000, og støtten er nødvendig ettersom andre finansieringskilder er avslagte.",
       "vedtak": "Tilskudd på inntil 200 000 kroner til prosjektet ble vedtatt, med utbetaling i to rater og frist 31.12.2021."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -285,7 +218,8 @@
       "innstilling": "Kommunedirektøren anbefalte avslag fordi Romsdal Reiseliv og Handel allerede hadde fått et tilskudd og et lån, og Kraftfondets retningslinjer åpner ikke for å omgjøre lån til tilskudd eller gi støtte til drift.",
       "vedtak": "Søknaden om å omgjøre lånet til tilskudd ble avslått."
     },
-    "stemmegivning": "Enstemmig avslag"
+    "stemmegivning": "Enstemmig avslag",
+    "innvilget": false
   },
   {
     "sak": {
@@ -321,6 +255,7 @@
       "innstilling": "Administrasjonen la frem innstilling på møtet om å fordele midlene forholdsmessig likt etter justert søknadsbeløp.",
       "vedtak": "Midlene i kompensasjonsordningen skal fordeles forholdsmessig likt etter justert søknadsbeløp. Administrasjonen får fullmakt til å kvalitetssikre søknadene og sende endelig fordeling til Kraftfondet før utbetaling."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   }
 ]
