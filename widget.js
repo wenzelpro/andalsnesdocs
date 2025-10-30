@@ -1,13 +1,6 @@
 /*! Kraftfondet Trekkspill-widget (vanilla JS) */
 (function(){
   const currentScript = document.currentScript;
-  const inferScriptSrc = () => {
-    if (currentScript?.src) return currentScript.src;
-    const fallback = document.querySelector('script[src*="widget.js"]');
-    if (fallback?.src) return fallback.src;
-    return location.href;
-  };
-  const scriptSrc = inferScriptSrc();
   const STYLE_TAG_ID = 'kraftfondet-widget-styles';
   const CSS = `
 .kf-wrap {
@@ -169,7 +162,7 @@
   const DEFAULTS = {
     theme: 'auto',
     primary: '#377FCC',
-    manifest: new URL('./kraftfondet/manifest.json', scriptSrc).toString()
+    manifest: 'https://andalsnesdocs.github.io/kraftfondet/manifest.json'
   };
 
   const ensureStyles = () => {

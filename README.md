@@ -5,7 +5,8 @@ Denne repoen inneholder en vanilla-JS-widget som bygger hele trekkspillmenyen fo
 ## Hurtigbruk i Schibsted CMS
 ```html
 <script
-  src="https://andalsnesdocs.github.io/andalsnesdocs/widget.js"
+  src="https://andalsnesdocs.github.io/widget.js"
+  data-manifest="https://andalsnesdocs.github.io/kraftfondet/manifest.json"
   data-theme="auto"
   data-primary="#377FCC"></script>
 ```
@@ -13,7 +14,7 @@ Denne repoen inneholder en vanilla-JS-widget som bygger hele trekkspillmenyen fo
 - Widgeten opprettes på samme sted i innholdet som `<script>`-taggen.
 - `data-theme` kan settes til `auto`, `light` eller `dark`.
 - `data-primary` overstyrer aksentfargen.
-- `data-manifest` er valgfritt; som standard brukes `kraftfondet/manifest.json` fra samme opprinnelse som `widget.js`, men du kan peke til et annet manifest ved behov.
+- `data-manifest` peker til JSON-manifestet (kan overstyres ved behov).
 - Hvis du ønsker full kontroll på plasseringen kan du legge til `<div id="kraftfondet-app"></div>` der du vil ha widgeten. Scriptet bruker elementet dersom det finnes.
 
 ## Lokalt eksempel
