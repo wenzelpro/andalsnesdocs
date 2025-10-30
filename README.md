@@ -1,36 +1,23 @@
-
 # Kraftfondet – Trekkspill/Accordion-widget (CMS-vennlig)
 
-Dette leveres:
-- `index.html` – komplett forside
-- `widget.js` – CMS-vennlig widget
+Denne repoen inneholder en vanilla-JS-widget som bygger hele trekkspillmenyen for Kraftfondet direkte i CMS-et. Scriptet injiserer både nødvendig markup og styling automatisk, slik at du kun trenger å lime inn én `<script>`-tagg.
 
-## Rask start (GitHub Pages)
-1. Legg `index.html` og `widget.js` i `wenzel.pro.github.io/andalsnesdocs/`.
-2. Manifest må ligge på `https://andalsnesdocs.github.io/kraftfondet/manifest.json`.
-3. Åpne siden og test søk/åpne-lukk/dyp-lenking.
-
-## CMS-innliming
+## Hurtigbruk i Schibsted CMS
 ```html
-<div id="kraftfondet-app"
-     class="kf-wrap"
-     data-theme="auto"
-     data-primary="#377FCC"
-     data-manifest="https://andalsnesdocs.github.io/kraftfondet/manifest.json">
-  <div class="kf-controls">
-    <input id="kf-search" type="search" placeholder="Søk i saker (søker, referanse, tekst, vedtak) …" />
-    <button id="kf-expand" type="button">Åpne alle</button>
-    <button id="kf-collapse" type="button">Lukk alle</button>
-  </div>
-  <div id="kf-accordion" class="kf-accordion" aria-live="polite"></div>
-</div>
-<script src="/andalsnesdocs/widget.js"></script>
+<script
+  src="https://andalsnesdocs.github.io/andalsnesdocs/widget.js"
+  data-theme="auto"
+  data-primary="#377FCC"></script>
 ```
 
-## Konfig
-- `data-manifest`: URL til manifest
-- `data-theme`: `auto` | `light` | `dark`
-- `data-primary`: hex-farge
+- Widgeten opprettes på samme sted i innholdet som `<script>`-taggen.
+- `data-theme` kan settes til `auto`, `light` eller `dark`.
+- `data-primary` overstyrer aksentfargen.
+- `data-manifest` er valgfritt; som standard brukes `kraftfondet/manifest.json` fra samme opprinnelse som `widget.js`, men du kan peke til et annet manifest ved behov.
+- Hvis du ønsker full kontroll på plasseringen kan du legge til `<div id="kraftfondet-app"></div>` der du vil ha widgeten. Scriptet bruker elementet dersom det finnes.
+
+## Lokalt eksempel
+Åpne `index.html` i nettleseren for å se widgeten i bruk og for å teste søk, tastaturnavigasjon og dyp-lenking.
 
 ## Filtrering
 - Sak tas med hvis `sak.type` inneholder `søknad`/`tilskudd`/`investeringstilskudd`/`bedriftsutviklingstilskudd`/`etableringstilskudd`,
