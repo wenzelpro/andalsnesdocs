@@ -33,7 +33,8 @@
       "innstilling": "Kommunedirektøren foreslo et investeringstilskudd på 200 000 kroner (17 % av godkjent kostnadsramme på 1 200 000 kroner) med krav om prosjektregnskap og arbeidsfrist 30.09.2024.",
       "vedtak": "Tilskudd innvilges, men belastes ordinært fond i stedet for avsatte midler til tilleggsnæring landbruk. Det bevilges et investeringstilskudd på 200 000 kroner (17 % av godkjent kostnadsramme på 1 200 000 kroner) med krav om prosjektregnskap og frist 30.09.2024."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -69,7 +70,8 @@
       "innstilling": "Kommunedirektøren foreslo et investeringstilskudd på 40 000 kroner (40 % av godkjent kostnadsramme på 100 000 kroner) med krav om prosjektregnskap og arbeidsfrist 30.09.2024.",
       "vedtak": "Kommunedirektørens innstilling ble vedtatt etter at et medlem ble kjent inhabil. Det bevilges et investeringstilskudd på 40 000 kroner, som utgjør 40 % av godkjent kostnadsramme på 100 000 kroner, med krav om prosjektregnskap og frist 30.09.2024."
     },
-    "stemmegivning": "Enstemmig (4 stemmer) for innstillingen"
+    "stemmegivning": "Enstemmig (4 stemmer) for innstillingen",
+    "innvilget": true
   },
   {
     "sak": {
@@ -105,7 +107,8 @@
       "innstilling": "Saksframlegget konkluderte med at saken ikke kunne behandles fordi etterspurt dokumentasjon ikke var mottatt, og foreslo utsettelse til neste møte.",
       "vedtak": "Kraftfondet mente det manglet nødvendig informasjon og utsatte saken til neste møte."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": false
   },
   {
     "sak": {
@@ -141,7 +144,8 @@
       "innstilling": "Kommunedirektøren anbefalte avslag fordi søknaden gjelder ordinære driftskostnader som lønn og husleie, noe fondet ikke støtter.",
       "vedtak": "Søknaden ble avslått da den omhandler ordinære driftskostnader utenfor fondets formål."
     },
-    "stemmegivning": "Enstemmig avslag"
+    "stemmegivning": "Enstemmig avslag",
+    "innvilget": false
   },
   {
     "sak": {
@@ -177,7 +181,8 @@
       "innstilling": "Kommunedirektøren anbefalte å bevilge 200 000 kroner (18 % av godkjent kostnadsramme på 1 100 000 kroner) under forutsetning av prosjektregnskap og frist 30.09.2024.",
       "vedtak": "Det ble bevilget 200 000 kroner, som utgjør 18 % av godkjent kostnadsramme på 1 100 000 kroner. Prosjektregnskap skal framlegges og tiltaket fullføres innen 30.09.2024."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -213,7 +218,8 @@
       "innstilling": "Kommunedirektøren foreslo å gi et investeringstilskudd på 200 000 kroner (5,8 % av godkjent kostnadsramme 3 445 000 kroner) med krav om prosjektregnskap og frist 30.09.2024.",
       "vedtak": "Det ble bevilget et investeringstilskudd på 200 000 kroner (5,8 % av godkjent kostnadsramme 3 445 000 kroner) under forutsetning av prosjektregnskap og frist 30.09.2024."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -249,7 +255,8 @@
       "innstilling": "Kommunedirektøren anbefalte avslag fordi prosjektet ikke er i tråd med fondets formål og mangler direkte nærings- og sysselsettingsmessig effekt.",
       "vedtak": "Søknaden ble avslått. Fondet mente tiltaket falt utenfor kraftfondets regelverk."
     },
-    "stemmegivning": "Enstemmig avslag"
+    "stemmegivning": "Enstemmig avslag",
+    "innvilget": false
   },
   {
     "sak": {
@@ -285,7 +292,8 @@
       "innstilling": "Saken ble lagt frem uten innstilling. Kommunedirektøren påpekte at prosjektet gir positive ringvirkninger men i liten grad skaper nye arbeidsplasser.",
       "vedtak": "Kraftfondet bevilget 100 000 kroner, tilsvarende 29 % av godkjent kostnadsramme på 350 000 kroner. Prosjektregnskap skal dokumenteres, og tiltaket må gjennomføres innen 30.06.2024."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -321,7 +329,8 @@
       "innstilling": "Kommunedirektøren foreslo et tilskudd på 106 000 kroner (10 % av godkjent kostnadsramme på 1 065 000 kroner) med krav om prosjektregnskap attestert av autorisert regnskapsfører og frist 30.09.2024.",
       "vedtak": "Det ble vedtatt å bevilge 106 000 kroner (10 % av godkjent kostnadsramme på 1 065 000 kroner) under forutsetning av prosjektregnskap og frist 30.09.2024."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -357,7 +366,8 @@
       "innstilling": "Kommunedirektøren anbefalte et tilskudd på 95 000 kroner (22 % av godkjent kostnadsramme på 430 000 kroner) med krav om prosjektregnskap og frist 30.09.2024.",
       "vedtak": "Kraftfondet vedtok å bevilge 95 000 kroner (22 % av godkjent kostnadsramme 430 000 kroner) med krav om prosjektregnskap og frist 30.09.2024."
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -393,78 +403,7 @@
       "innstilling": "Saken ble lagt frem uten innstilling; Kraftfondet skulle selv vurdere kandidatlisten basert på kriteriene for næringsprisen.",
       "vedtak": "Næringsprisen 2023 ble tildelt Ida Eide for hennes entreprenørskap og etablering av flere serveringssteder som Hvelvet Bistro, Woldstadfjøset og Bondepikene. Hun har vist at det er mulig å drive flere restauranter i kommunen, skapt arbeidsplasser og gitt nye møteplasser. Prisen ble enstemmig vedtatt."
     },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Møteplan 2024",
-      "dato": "2023-11-21",
-      "referanse": "PS-49/23"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "Kommunedirektøren foreslo møtedatoer for kraftfondet i 2024 og at møtene holdes fra klokken 09:00 til 11:00. Foreslåtte datoer var 15. februar, 18. april, 13. juni, 19. september og 21. november."
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": "Ingen budsjett – dette er en administrativ møteplan."
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte å vedta møteplanen med de foreslåtte datoene.",
-      "vedtak": "Under møtet ble det fremmet et fellesforslag med nye datoer: 12. februar, 15. april, 10. juni, 16. september og 18. november. Kraftfondet vedtok enstemmig å avholde møter disse datoene fra klokken 09:00 til 11:00."
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Statusrapport",
-      "dato": "2023-11-21",
-      "referanse": "PS-50/23"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": "Saken omfattet en orientering fra økonomiavdelingen om den økonomiske situasjonen i Kraftfondet per november 2023. Sekretariatet la frem oversikter over tilskudd, balanse, resultat- og regnskapsrapporter pr. 31.10.2023."
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": "Ingen budsjett – saken var en statusorientering."
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte at saken tas til orientering.",
-      "vedtak": "Kraftfondet tok saken til orientering etter en muntlig gjennomgang av økonomiavdelingen. Voteringen var enstemmig."
-    },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   }
 ]

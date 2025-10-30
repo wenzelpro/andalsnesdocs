@@ -1,114 +1,6 @@
 [
   {
     "sak": {
-      "søker": "",
-      "type": "Godkjenning av møteinnkalling og saksliste. Valg av protokollunderskrivere",
-      "dato": "2022-06-16",
-      "referanse": "PS-33/22"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte å godkjenne møteinnkalling og saksliste samt å velge Jo‑Andre Herje og Ingunn Svelle Heinåli som protokollunderskrivere",
-      "vedtak": "Møteinnkalling og saksliste ble godkjent. Jo‑Andre Herje og Ingunn Svelle Heinåli ble valgt som protokollunderskrivere"
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Referatsak",
-      "dato": "2022-06-16",
-      "referanse": "PS-34/22"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte at saken tas til orientering",
-      "vedtak": "Saken ble tatt til orientering"
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
-      "søker": "",
-      "type": "Orienteringssaker",
-      "dato": "2022-06-16",
-      "referanse": "PS-35/22"
-    },
-    "prosjektbeskrivelse": {
-      "tekst": ""
-    },
-    "budsjett": {
-      "punkter": [
-        {
-          "tittel": "Totale kostnader",
-          "verdi": ""
-        },
-        {
-          "tittel": "Egeninnsats",
-          "verdi": ""
-        },
-        {
-          "tittel": "Søknadssum",
-          "verdi": ""
-        },
-        {
-          "tittel": "Beskrivelse",
-          "verdi": ""
-        }
-      ]
-    },
-    "vedtak": {
-      "innstilling": "Kommunedirektøren anbefalte at orienteringssakene tas til orientering",
-      "vedtak": "Orienteringssakene ble tatt til orientering"
-    },
-    "stemmegivning": "Enstemmig"
-  },
-  {
-    "sak": {
       "søker": "Nordveggen AS",
       "type": "Søknad om bedriftsutviklingstilskudd til Innovasjonsfestivalen 2022",
       "dato": "2022-06-16",
@@ -141,7 +33,8 @@
       "innstilling": "Kommunedirektøren foreslo et bedriftsutviklingstilskudd på 100 000 kroner til Innovasjonsfestivalen 2022 med rapporteringsfrist 30.11.2022",
       "vedtak": "Tilskudd på 100 000 kroner ble innvilget. Tilskuddet skal brukes til gjennomføring av Innovasjonsfestivalen 2022 med frist 30.11.2022"
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -177,7 +70,8 @@
       "innstilling": "Kommunedirektøren innstilte på et investeringstilskudd på inntil 200 000 kroner (20 % av kostnadsramme 1 000 000 kroner) til oppgradering av stillerom, kjøkken og toaletter",
       "vedtak": "Søknaden ble avslått. Fondet oppfordret søkeren til å søke etableringstilskudd i stedet"
     },
-    "stemmegivning": "Enstemmig avslag"
+    "stemmegivning": "Enstemmig avslag",
+    "innvilget": false
   },
   {
     "sak": {
@@ -213,7 +107,8 @@
       "innstilling": "Kommunedirektøren anbefalte et etableringstilskudd på 60 400 kroner (40 % av en kostnadsramme på 151 000 kroner) for å utvikle trykte tegneserier",
       "vedtak": "Etableringstilskudd på 60 400 kroner, tilsvarende 40 % av en godkjent kostnadsramme på 151 000 kroner, ble innvilget"
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -249,7 +144,8 @@
       "innstilling": "Kommunedirektøren anbefalte å avslå søknaden fordi retningslinjene prioriterer tiltak som skaper arbeidsplasser og fordi organisasjonen er ideell, ikke kommersiell",
       "vedtak": "Søknaden ble avslått"
     },
-    "stemmegivning": "Enstemmig avslag"
+    "stemmegivning": "Enstemmig avslag",
+    "innvilget": false
   },
   {
     "sak": {
@@ -285,7 +181,8 @@
       "innstilling": "Kommunedirektøren anbefalte et investeringstilskudd på 30 000 kroner (30 % av en kostnadsramme på 100 000 kroner) til kjøp av epletrær og gjerde for eplehage",
       "vedtak": "Et investeringstilskudd på 30 000 kroner til kjøp av epletrær og gjerde ble innvilget"
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   },
   {
     "sak": {
@@ -321,6 +218,7 @@
       "innstilling": "Kommunedirektøren anbefalte et bedriftsutviklingstilskudd på 80 000 kroner (40 % av kostnadsramme 200 000 kroner) med prosjektregnskap og frist 30.11.2022",
       "vedtak": "Tilskudd på 80 000 kroner fra ekstra statstilskudd ble innvilget til gjennomføring av «Gjesten i sentrum» sommeren 2022"
     },
-    "stemmegivning": "Enstemmig"
+    "stemmegivning": "Enstemmig",
+    "innvilget": true
   }
 ]
