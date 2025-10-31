@@ -9,7 +9,7 @@ body, #kraftfondet-widget {
 
 /* Søkefelt */
 #kf-search {
-  width: calc(100% - 40px);
+  width: 100%;
   margin: 20px;
   padding: 10px 14px;
   border: 1px solid #ccc;
