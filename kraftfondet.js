@@ -10,13 +10,29 @@
     return;
   }
 
+  const MAX_INITIAL_CASES = 10;
+  let allCases = [];
+  let showingAll = false;
+  let searchQuery = "";
+
+  const loadAllContainer = el("div", "kf-load-all-wrapper");
+  const loadAllButton = el("button", "kf-load-all", "Last inn alle saker", { type: "button" });
+  loadAllContainer.hidden = true;
+  loadAllContainer.appendChild(loadAllButton);
+  errorBox.parentNode.insertBefore(loadAllContainer, errorBox);
+
+  loadAllButton.addEventListener("click", () => {
+    showingAll = true;
+    renderCases();
+  });
+
   init();
 
   async function init() {
     try {
-      const allCases = await loadAllCases(manifestUrl);
-      render(allCases);
-      wireSearch(allCases);
+      allCases = await loadAllCases(manifestUrl);
+      renderCases();
+      wireSearch();
     } catch (e) {
       showError(`Kunne ikke laste manifestet eller møtefiler. Feil: ${e.message}`);
     }
@@ -45,6 +61,11 @@
     }
 
     cases.sort((a, b) => new Date(b.sak.dato) - new Date(a.sak.dato));
+
+    cases.forEach(entry => {
+      entry._search = buildSearchString(entry);
+    });
+
     return cases;
   }
 
@@ -54,11 +75,28 @@
     return res.json();
   }
 
-  function render(cases) {
+  function renderCases() {
     acc.innerHTML = "";
     errorBox.hidden = true;
 
-    const groups = cases.reduce((m, it) => {
+    const source = searchQuery
+      ? allCases.filter(item => item._search.includes(searchQuery))
+      : allCases;
+
+    const visible = !searchQuery && !showingAll
+      ? source.slice(0, MAX_INITIAL_CASES)
+      : source;
+
+    if (!visible.length) {
+      const message = searchQuery
+        ? "Ingen saker matcher søket ditt."
+        : "Ingen saker tilgjengelig.";
+      acc.appendChild(el("div", "kf-empty", message));
+      toggleLoadAllButton({ visibleCount: visible.length, sourceCount: source.length });
+      return;
+    }
+
+    const groups = visible.reduce((m, it) => {
       const y = new Date(it.sak.dato).getFullYear();
       (m[y] ||= []).push(it);
       return m;
@@ -72,6 +110,8 @@
         acc.appendChild(renderItem(item));
       });
     });
+
+    toggleLoadAllButton({ visibleCount: visible.length, sourceCount: source.length });
   }
 
   function renderItem(item) {
@@ -130,11 +170,7 @@
     itemEl.append(header, content);
 
     // Søkestreng
-    itemEl.dataset.search = [
-      sak.søker, sak.type, sak.referanse, stemmegivning,
-      vedtak?.innstilling, vedtak?.vedtak, prosjektbeskrivelse?.tekst,
-      ...(Array.isArray(budsjett?.punkter) ? budsjett.punkter.map(p => `${p.tittel} ${p.verdi}`) : [])
-    ].filter(Boolean).join(" ").toLowerCase();
+    itemEl.dataset.search = item._search || buildSearchString(item);
 
     return itemEl;
   }
@@ -147,33 +183,19 @@
 
   function wireSearch() {
     searchInput.addEventListener("input", () => {
-      const q = searchInput.value.trim().toLowerCase();
-
-      // Filtrer elementer
-      const items = Array.from(acc.querySelectorAll(".kf-item"));
-      items.forEach(it => {
-        const match = !q || it.dataset.search.includes(q);
-        it.classList.toggle("kf-hidden", !match);
-      });
-
-      // Skjul år uten synlige elementer
-      const years = Array.from(acc.querySelectorAll(".kf-year"));
-      years.forEach(y => {
-        const nextSiblings = [];
-        let el = y.nextElementSibling;
-        while (el && !el.classList.contains("kf-year")) {
-          nextSiblings.push(el);
-          el = el.nextElementSibling;
-        }
-        const anyVisible = nextSiblings.some(e => e.classList.contains("kf-item") && !e.classList.contains("kf-hidden"));
-        y.classList.toggle("kf-hidden", !anyVisible);
-      });
+      searchQuery = searchInput.value.trim().toLowerCase();
+      renderCases();
     });
   }
 
   function showError(msg) {
     errorBox.textContent = msg;
     errorBox.hidden = false;
+  }
+
+  function toggleLoadAllButton({ visibleCount, sourceCount }) {
+    const shouldShow = !searchQuery && !showingAll && sourceCount > visibleCount;
+    loadAllContainer.hidden = !shouldShow;
   }
 
   // Hjelpere
@@ -194,5 +216,14 @@
     return String(s).replace(/[&<>"']/g, ch =>
       ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch])
     );
+  }
+
+  function buildSearchString(item) {
+    const { sak = {}, prosjektbeskrivelse = {}, budsjett = {}, vedtak = {}, stemmegivning } = item;
+    return [
+      sak.søker, sak.type, sak.referanse, stemmegivning,
+      vedtak?.innstilling, vedtak?.vedtak, prosjektbeskrivelse?.tekst,
+      ...(Array.isArray(budsjett?.punkter) ? budsjett.punkter.map(p => `${p.tittel} ${p.verdi}`) : [])
+    ].filter(Boolean).join(" ").toLowerCase();
   }
 })();
