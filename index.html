@@ -1,76 +1,20 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="no">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kraftfondet – saker (trekkspill)</title>
-  <style>
-    :root {
-      --kf-primary: #377FCC;
-      --kf-bg: #ffffff;
-      --kf-fg: #111827;
-      --kf-muted: #6b7280;
-      --kf-border: #e5e7eb;
-      --kf-surface: #f9fafb;
-      --kf-surface-2: #f6f8fa;
-      --kf-surface-3: #fcfcfd;
-      --kf-focus: var(--kf-primary);
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --kf-bg: #0b0c0f;
-        --kf-fg: #e5e7eb;
-        --kf-muted: #9ca3af;
-        --kf-border: #2b303b;
-        --kf-surface: #111318;
-        --kf-surface-2: #0f1116;
-        --kf-surface-3: #131722;
-      }
-    }
-    .kf-wrap { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--kf-fg); background: transparent; line-height: 1.45; }
-    .kf-wrap[data-theme="light"] {
-      --kf-bg: #ffffff; --kf-fg: #111827; --kf-muted: #6b7280; --kf-border: #e5e7eb; --kf-surface: #f9fafb; --kf-surface-2: #f6f8fa; --kf-surface-3: #fcfcfd;
-    }
-    .kf-wrap[data-theme="dark"] {
-      --kf-bg: #0b0c0f; --kf-fg: #e5e7eb; --kf-muted: #9ca3af; --kf-border: #2b303b; --kf-surface: #111318; --kf-surface-2: #0f1116; --kf-surface-3: #131722;
-    }
-    .kf-controls { display: flex; gap: .5rem; margin: .5rem 0 1rem; }
-    .kf-controls input[type="search"] { flex: 1; padding: .6rem .75rem; border:1px solid var(--kf-border); border-radius:.6rem; background: var(--kf-bg); color: var(--kf-fg); }
-    .kf-accordion { margin-bottom: 2rem; }
-    .kf-section { border:1px solid var(--kf-border); border-radius:.8rem; margin-bottom:1rem; overflow:hidden; background: var(--kf-surface-3); }
-    .kf-section > .kf-section-title { background: var(--kf-surface); padding:.7rem .9rem; font-weight:700; border-bottom:1px solid var(--kf-border); }
-    .kf-item { border-top:1px solid var(--kf-border); }
-    .kf-item:first-child { border-top:0; }
-    .kf-summary { display:flex; align-items:center; justify-content:space-between; width:100%; text-align:left; padding:.9rem .9rem; background:var(--kf-bg); cursor:pointer; border:0; font-size: 1rem; }
-    .kf-summary:focus { outline: 2px solid var(--kf-focus); outline-offset: 2px; }
-    .kf-summary .kf-title { font-weight:700; }
-    .kf-summary .kf-meta { color: var(--kf-muted); font-size:.9rem; margin-top:.15rem; }
-    .kf-right { color: var(--kf-muted); font-size:.9rem; margin-left: 1rem; white-space: nowrap; }
-    .kf-panel { display:none; padding:.9rem .9rem; background:var(--kf-surface-3); border-top:1px dashed var(--kf-border); }
-    .kf-panel.open { display:block; }
-    .kf-panel-meta { margin-top:.75rem; padding-top:.75rem; border-top:1px solid var(--kf-border); color:var(--kf-muted); font-size:.9rem; display:flex; flex-direction:column; gap:.2rem; }
-    .kf-panel-meta strong { color: var(--kf-fg); }
-    .kf-empty { color: var(--kf-muted); font-style: italic; padding: .75rem; }
-    .kf-loader { padding: .75rem; color: var(--kf-muted); }
-    .kf-error { padding: .75rem; border:1px solid #ef4444; background: #fee2e2; color: #7f1d1d; border-radius: .6rem; }
-  </style>
+  <title>Kraftfondet – trekkspillmeny</title>
+  <link rel="stylesheet" href="kraftfondet.css" />
 </head>
 <body>
-  <main>
-    <div id="kraftfondet-app"
-         class="kf-wrap"
-         data-theme="auto"
-         data-primary="#377FCC"
-         data-manifest="https://wenzelpro.github.io/andalsnesdocs/kraftfondet/manifest.json">
-      <div class="kf-controls">
-        <input id="kf-search" type="search" placeholder="Søk i saker (søker, referanse, tekst, vedtak) …" aria-label="Søk i saker" />
-      </div>
-      <div id="kf-accordion" class="kf-accordion" aria-live="polite">
-        <div class="kf-loader">Laster saker …</div>
-      </div>
-    </div>
-  </main>
-  <script src="./widget.js"></script>
+  <div id="kraftfondet-widget"
+       data-manifest="https://wenzelpro.github.io/andalsnesdocs/kraftfondet/manifest.json">
+    <input type="text" id="kf-search"
+           placeholder="Søk i saker… (søker, type, referanse, prosjektbeskrivelse, vedtak, budsjett, stemmegivning)" />
+    <div id="kf-accordion" aria-live="polite"></div>
+    <div id="kf-error" class="kf-error" hidden></div>
+  </div>
+
+  <script src="kraftfondet.js"></script>
 </body>
 </html>
