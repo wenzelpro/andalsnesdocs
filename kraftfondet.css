@@ -8,9 +8,14 @@ body, #kraftfondet-widget {
 }
 
 /* Søkefelt */
+#kraftfondet-widget {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 #kf-search {
   width: 100%;
-  margin: 20px;
+  margin: 20px 0;
   padding: 10px 14px;
   border: 1px solid #ccc;
   border-radius: 0;
@@ -22,14 +27,14 @@ body, #kraftfondet-widget {
 .kf-year {
   font-weight: 700;
   font-size: 1rem;
-  margin: 20px 20px 10px 20px;
+  margin: 20px 0 10px 0;
   color: #333;
 }
 
 /* Trekkspillboks (5px mellom bokser, null radius/kanter) */
 .kf-item {
   background: #ffffff;
-  margin: 5px 20px;
+  margin: 5px 0;
   border: none;
   border-radius: 0;
   overflow: hidden;
@@ -107,7 +112,7 @@ body, #kraftfondet-widget {
 
 /* Feilboks */
 .kf-error {
-  margin: 20px;
+  margin: 20px 0;
   padding: 12px 16px;
   background: #fff1f2;
   border: 1px solid #fecdd3;
@@ -121,7 +126,7 @@ body, #kraftfondet-widget {
 /* Små skjermer */
 @media (max-width: 480px) {
   .kf-header { padding: 12px 14px; }
-  #kf-search { margin: 16px; width: calc(100% - 32px); }
-  .kf-item { margin: 5px 16px; }
-  .kf-year { margin: 16px 16px 8px; }
+  #kf-search { margin: 16px 0; width: 100%; }
+  .kf-item { margin: 5px 0; }
+  .kf-year { margin: 16px 0 8px; }
 }
