@@ -57,40 +57,47 @@
   function render(cases) {
     acc.innerHTML = "";
     errorBox.hidden = true;
-    const groups = groupByYear(cases);
-    const years = Object.keys(groups).sort((a, b) => b - a);
-    for (const year of years) {
-      const yearH = el("div", "kf-year", year);
-      acc.appendChild(yearH);
-      for (const item of groups[year]) {
-        acc.appendChild(renderItem(item));
-      }
-    }
-  }
 
-  function groupByYear(cases) {
-    return cases.reduce((m, it) => {
+    const groups = cases.reduce((m, it) => {
       const y = new Date(it.sak.dato).getFullYear();
       (m[y] ||= []).push(it);
       return m;
     }, {});
+
+    Object.keys(groups).sort((a, b) => b - a).forEach(year => {
+      const yearH = el("div", "kf-year", year);
+      acc.appendChild(yearH);
+
+      groups[year].forEach(item => {
+        acc.appendChild(renderItem(item));
+      });
+    });
   }
 
   function renderItem(item) {
     const { sak = {}, prosjektbeskrivelse = {}, budsjett = {}, vedtak = {}, stemmegivning, innvilget } = item;
-    const titleText = `${sak.søker ?? "Ukjent søker"} — ${sak.type ?? "Ukjent type"}`;
 
     const itemEl = el("div", "kf-item");
+
+    // Header (hele boksen klikkbar)
     const header = el("div", "kf-header");
     header.setAttribute("role", "button");
     header.setAttribute("tabindex", "0");
     header.setAttribute("aria-controls", uniqueId("kf-content"));
     header.setAttribute("aria-expanded", "false");
 
-    const title = el("div", "kf-title", titleText);
-    const statusDot = el("div", `kf-status ${statusClass(innvilget)}`);
-    header.append(title, statusDot);
+    // Tittel: to linjer
+    const titleWrap = el("div", "kf-title");
+    const sokerEl = el("div", "kf-soker", sak.søker ?? "Ukjent søker");
+    const typeEl  = el("div", "kf-type",  sak.type   ?? "Ukjent type");
+    titleWrap.append(sokerEl, typeEl);
 
+    // Status-prikk lengst til høyre
+    const statusDot = el("div", `kf-status ${statusClass(innvilget)}`);
+
+    header.append(titleWrap, statusDot);
+
+    // Innhold
     const content = el("div", "kf-content");
     content.id = header.getAttribute("aria-controls");
     content.innerHTML = `
@@ -106,6 +113,7 @@
       ${stemmegivning ? `<p><strong>Stemmegivning:</strong> ${escapeHtml(stemmegivning)}</p>` : ""}
     `;
 
+    // Kun én åpen av gangen
     header.addEventListener("click", () => {
       document.querySelectorAll("#kf-accordion .kf-content").forEach(c => {
         if (c !== content) {
@@ -120,11 +128,14 @@
     });
 
     itemEl.append(header, content);
+
+    // Søkestreng
     itemEl.dataset.search = [
       sak.søker, sak.type, sak.referanse, stemmegivning,
       vedtak?.innstilling, vedtak?.vedtak, prosjektbeskrivelse?.tekst,
       ...(Array.isArray(budsjett?.punkter) ? budsjett.punkter.map(p => `${p.tittel} ${p.verdi}`) : [])
     ].filter(Boolean).join(" ").toLowerCase();
+
     return itemEl;
   }
 
@@ -134,14 +145,18 @@
          : "kf-status--null";
   }
 
-  function wireSearch(allCases) {
+  function wireSearch() {
     searchInput.addEventListener("input", () => {
       const q = searchInput.value.trim().toLowerCase();
+
+      // Filtrer elementer
       const items = Array.from(acc.querySelectorAll(".kf-item"));
       items.forEach(it => {
         const match = !q || it.dataset.search.includes(q);
         it.classList.toggle("kf-hidden", !match);
       });
+
+      // Skjul år uten synlige elementer
       const years = Array.from(acc.querySelectorAll(".kf-year"));
       years.forEach(y => {
         const nextSiblings = [];
@@ -161,6 +176,7 @@
     errorBox.hidden = false;
   }
 
+  // Hjelpere
   function el(tag, cls, text, attrs = {}) {
     const e = document.createElement(tag);
     if (cls) e.className = cls;
