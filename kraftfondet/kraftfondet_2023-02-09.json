@@ -313,7 +313,7 @@
         },
         {
           "tittel": "Egeninnsats",
-          "verdi": ""
+          "verdi": "100 000 kroner (egenkapital)"
         },
         {
           "tittel": "Søknadssum",
@@ -321,15 +321,15 @@
         },
         {
           "tittel": "Beskrivelse",
-          "verdi": "Kostnader til foredragsholdere, markedsføring, teknisk gjennomføring og administrasjon."
+          "verdi": "Innledere og underholdning 400 000 kroner, leie av lokaler, servering og møtekostnader 270 000 kroner, datakommunikasjon og markedsføring 350 000 kroner, administrasjon 100 000 kroner og prosjektledelse 330 000 kroner."
         }
       ]
     },
     "vedtak": {
       "innstilling": "Kommunedirektøren anbefalte å bevilge 100 000 kroner til Innovasjonsfestivalen 2023 med krav om prosjektregnskap attestert av autorisert regnskapsfører og ferdigstillelse innen 30.11.2023.",
-      "vedtak": "Ikke behandlet – endelig vedtak ikke tilgjengelig i denne oppsummeringen."
+      "vedtak": "Nordveggen bevilges 100 000 kroner til gjennomføringen av Innovasjonsfestivalen 2023. Tilskuddet utbetales mot prosjektregnskap attestert av autorisert regnskapsfører, og arbeidsfristen er 30.11.2023."
     },
-    "stemmegivning": "Ikke tilgjengelig",
-    "innvilget": false
+    "stemmegivning": "Enstemmig vedtak",
+    "innvilget": true
   }
 ]
