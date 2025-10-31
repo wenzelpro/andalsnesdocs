@@ -6,8 +6,8 @@ body, #kraftfondet-widget {
   color: #1f2937;
 }
 #kf-search {
-  width: calc(100% - 40px);
-  margin: 20px;
+  width: 100%;
+  margin: 0;
   padding: 10px 14px;
   border: 1px solid #ccc;
   border-radius: 0;
@@ -17,12 +17,12 @@ body, #kraftfondet-widget {
 .kf-year {
   font-weight: 700;
   font-size: 1rem;
-  margin: 20px 20px 10px 20px;
+  margin: 0;
   color: #333;
 }
 .kf-item {
   background: #ffffff;
-  margin: 5px 20px;
+  margin: 0;
   border: none;
   border-radius: 0;
   overflow: hidden;
