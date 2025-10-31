@@ -140,18 +140,15 @@
     // Innhold
     const content = el("div", "kf-content");
     content.id = header.getAttribute("aria-controls");
-    content.innerHTML = `
-      <p><strong>Dato:</strong> ${sak.dato ?? ""}</p>
-      ${sak.referanse ? `<p><strong>Referanse:</strong> ${sak.referanse}</p>` : ""}
-      ${prosjektbeskrivelse?.tekst ? `<p><strong>Prosjektbeskrivelse:</strong> ${escapeHtml(prosjektbeskrivelse.tekst)}</p>` : ""}
-      ${Array.isArray(budsjett?.punkter) && budsjett.punkter.length ? `
-        <p><strong>Budsjett:</strong></p>
-        <ul>${budsjett.punkter.map(p => `<li><strong>${escapeHtml(p.tittel || "")}:</strong> ${escapeHtml(p.verdi || "")}</li>`).join("")}</ul>
-      ` : ""}
-      ${vedtak?.innstilling ? `<p><strong>Innstilling:</strong> ${escapeHtml(vedtak.innstilling)}</p>` : ""}
-      ${vedtak?.vedtak ? `<p><strong>Vedtak:</strong> ${escapeHtml(vedtak.vedtak)}</p>` : ""}
-      ${stemmegivning ? `<p><strong>Stemmegivning:</strong> ${escapeHtml(stemmegivning)}</p>` : ""}
-    `;
+    content.innerHTML = [
+      renderParagraph("Dato", sak.dato),
+      renderParagraph("Referanse", sak.referanse),
+      renderParagraph("Prosjektbeskrivelse", prosjektbeskrivelse?.tekst),
+      renderBudget(budsjett?.punkter),
+      renderParagraph("Innstilling", vedtak?.innstilling),
+      renderParagraph("Vedtak", vedtak?.vedtak),
+      renderParagraph("Stemmegivning", stemmegivning),
+    ].filter(Boolean).join("");
 
     // Kun én åpen av gangen
     header.addEventListener("click", () => {
@@ -170,7 +167,19 @@
     itemEl.append(header, content);
 
     // Søkestreng
-    itemEl.dataset.search = item._search || buildSearchString(item);
+    itemEl.dataset.search = [
+      sak.søker, sak.type, sak.referanse, stemmegivning,
+      vedtak?.innstilling, vedtak?.vedtak, prosjektbeskrivelse?.tekst,
+      ...(Array.isArray(budsjett?.punkter)
+        ? budsjett.punkter
+            .map(p => [p?.tittel, p?.verdi]
+              .map(v => v == null ? "" : String(v).trim())
+              .filter(Boolean)
+              .join(" ")
+            )
+            .filter(Boolean)
+        : [])
+    ].filter(Boolean).join(" ").toLowerCase();
 
     return itemEl;
   }
@@ -199,6 +208,30 @@
   }
 
   // Hjelpere
+  function renderParagraph(label, value) {
+    if (value == null) return "";
+    const str = String(value).trim();
+    if (!str) return "";
+    return `<p><strong>${label}:</strong> ${escapeHtml(str)}</p>`;
+  }
+
+  function renderBudget(points) {
+    if (!Array.isArray(points)) return "";
+    const items = points
+      .map(point => {
+        const title = String(point?.tittel ?? "").trim();
+        const amount = String(point?.verdi ?? "").trim();
+        if (!title && !amount) return "";
+        const parts = [];
+        if (title) parts.push(`<strong>${escapeHtml(title)}:</strong>`);
+        if (amount) parts.push(escapeHtml(amount));
+        return `<li>${parts.join(" ")}</li>`;
+      })
+      .filter(Boolean);
+    if (!items.length) return "";
+    return `<p><strong>Budsjett:</strong></p><ul>${items.join("")}</ul>`;
+  }
+
   function el(tag, cls, text, attrs = {}) {
     const e = document.createElement(tag);
     if (cls) e.className = cls;
