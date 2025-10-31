@@ -1,3 +1,4 @@
+/* Bakgrunn og base */
 body, #kraftfondet-widget {
   background: #f2f4f5;
   margin: 0;
@@ -5,6 +6,8 @@ body, #kraftfondet-widget {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   color: #1f2937;
 }
+
+/* Søkefelt */
 #kf-search {
   width: calc(100% - 40px);
   margin: 20px;
@@ -14,12 +17,16 @@ body, #kraftfondet-widget {
   background: #ffffff;
   font-size: 0.95rem;
 }
+
+/* År-overskrift (20px mellom år) */
 .kf-year {
   font-weight: 700;
   font-size: 1rem;
   margin: 20px 20px 10px 20px;
   color: #333;
 }
+
+/* Trekkspillboks (5px mellom bokser, null radius/kanter) */
 .kf-item {
   background: #ffffff;
   margin: 5px 20px;
@@ -27,6 +34,8 @@ body, #kraftfondet-widget {
   border-radius: 0;
   overflow: hidden;
 }
+
+/* Tittelboks */
 .kf-header {
   display: flex;
   justify-content: space-between;
@@ -41,17 +50,38 @@ body, #kraftfondet-widget {
   box-sizing: border-box;
   transition: background 0.15s ease;
 }
-.kf-header:hover {
-  background: #f0f0f0;
-}
+.kf-header:hover { background: #f0f0f0; }
+
+/* Tittelområde: to linjer (Søker over, Type under) */
 .kf-title {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;      /* viktig for at teksten skal wrappe riktig i flex */
+  flex: 1;
+}
+
+.kf-soker {
   font-weight: 600;
+  line-height: 1.2;
+  /* Tillat linjebyte på mobil */
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
-  flex: 1;
-  text-align: left;
+  white-space: normal;
+  word-break: break-word;
 }
+
+.kf-type {
+  margin-top: 2px;
+  font-size: 0.88rem;          /* mindre skrift for type/prosjekttittel */
+  color: #4b5563;              /* roligere farge */
+  line-height: 1.25;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* Status-prikk helt til høyre */
 .kf-status {
   width: 12px;
   height: 12px;
@@ -59,9 +89,11 @@ body, #kraftfondet-widget {
   flex-shrink: 0;
   margin-left: 12px;
 }
-.kf-status--true  { background-color: #22c55e; }
-.kf-status--false { background-color: #ef4444; }
-.kf-status--null  { background-color: #9ca3af; }
+.kf-status--true  { background-color: #22c55e; } /* Innvilget */
+.kf-status--false { background-color: #ef4444; } /* Avslag */
+.kf-status--null  { background-color: #9ca3af; } /* Ukjent */
+
+/* Innhold */
 .kf-content {
   display: none;
   padding: 16px;
@@ -72,6 +104,8 @@ body, #kraftfondet-widget {
 }
 .kf-content p { margin: 0.3rem 0; }
 .kf-content strong { color: #111827; }
+
+/* Feilboks */
 .kf-error {
   margin: 20px;
   padding: 12px 16px;
@@ -80,4 +114,14 @@ body, #kraftfondet-widget {
   color: #7f1d1d;
   border-radius: 0;
 }
+
+/* Skjuling */
 .kf-hidden { display: none !important; }
+
+/* Små skjermer */
+@media (max-width: 480px) {
+  .kf-header { padding: 12px 14px; }
+  #kf-search { margin: 16px; width: calc(100% - 32px); }
+  .kf-item { margin: 5px 16px; }
+  .kf-year { margin: 16px 16px 8px; }
+}
