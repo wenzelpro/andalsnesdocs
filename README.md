@@ -1,27 +1,46 @@
 # Kraftfondet – Trekkspill/Accordion-widget (CMS-vennlig)
 
-Denne repoen inneholder en vanilla-JS-widget som bygger hele trekkspillmenyen for Kraftfondet direkte i CMS-et. Scriptet injiserer både nødvendig markup og styling automatisk, slik at du kun trenger å lime inn én `<script>`-tagg.
+Denne repoen inneholder en vanilla-JS-widget som viser hele trekkspillmenyen for Kraftfondet i et CMS eller på en nettside. CSS
+og JavaScript ligger tilgjengelig via GitHub Pages slik at du kan gjenbruke komponenten uten byggsteg.
 
-## Hurtigbruk i Schibsted CMS
+## Raskt oppsett i CMS (ren HTML)
+- Ferdig bygget widget finnes på `https://wenzelpro.github.io/andalsnesdocs/widget.html`.
+- Lim inn hele dokumentet i CMS-et ditt *eller* bygg den inn via en `<iframe>`:
+
 ```html
-<script
-  src="https://andalsnesdocs.github.io/widget.js"
-  data-manifest="https://andalsnesdocs.github.io/kraftfondet/manifest.json"
-  data-theme="auto"
-  data-primary="#377FCC"></script>
+<iframe
+  src="https://wenzelpro.github.io/andalsnesdocs/widget.html"
+  style="width: 100%; border: 0;"
+  title="Kraftfondet"></iframe>
 ```
 
-- Widgeten opprettes på samme sted i innholdet som `<script>`-taggen.
-- `data-theme` kan settes til `auto`, `light` eller `dark`.
-- `data-primary` overstyrer aksentfargen.
-- `data-manifest` peker til JSON-manifestet (kan overstyres ved behov).
-- Hvis du ønsker full kontroll på plasseringen kan du legge til `<div id="kraftfondet-app"></div>` der du vil ha widgeten. Scriptet bruker elementet dersom det finnes.
+Alle stilark, skript og datafiler lastes inn automatisk fra GitHub Pages.
+
+## Manuell integrasjon via script-tag
+Hvis du heller vil injisere widgeten direkte i siden, trenger du både markup, stilark og skriptet. Eksempelet under viser minimumsoppsettet:
+```html
+<link rel="stylesheet" href="https://wenzelpro.github.io/andalsnesdocs/kraftfondet.css" />
+
+<div id="kraftfondet-widget"
+     data-manifest="https://wenzelpro.github.io/andalsnesdocs/kraftfondet/manifest.json">
+  <input type="text" id="kf-search"
+         placeholder="Søk i saker… (søker, type, referanse, prosjektbeskrivelse, vedtak, budsjett, stemmegivning)" />
+  <div id="kf-accordion" aria-live="polite"></div>
+  <div id="kf-error" class="kf-error" hidden></div>
+</div>
+
+<script src="https://wenzelpro.github.io/andalsnesdocs/kraftfondet.js"></script>
+```
+
+- `data-manifest` peker til JSON-manifestet som listes opp i widgeten. Endre adressen hvis du har en egen manifest-fil.
+- Scriptet forventer at elementene over finnes i DOM-en. Hvis de mangler vil widgeten ikke initialiseres riktig.
 
 ## Lokalt eksempel
 Åpne `index.html` i nettleseren for å se widgeten i bruk og for å teste søk, tastaturnavigasjon og dyp-lenking.
 
 ## Filtrering
-- Sak tas med hvis `sak.type` inneholder `søknad`/`tilskudd`/`investeringstilskudd`/`bedriftsutviklingstilskudd`/`etableringstilskudd`,
+- Sak tas med hvis `sak.type` inneholder `søknad`/`tilskudd`/`investeringstilskudd`/`bedriftsutviklingstilskudd`/`etableringstilsk
+udd`,
   eller `vedtak.vedtak` inneholder `innvilg`/`bevilg`/`tilskudd`.
 
 ## Tilgjengelighet
