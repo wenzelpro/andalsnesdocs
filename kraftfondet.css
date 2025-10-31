@@ -123,6 +123,42 @@ body, #kraftfondet-widget {
 /* Skjuling */
 .kf-hidden { display: none !important; }
 
+/* Last inn alle saker */
+.kf-load-all-wrapper {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.kf-load-all {
+  background: #1f2937;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.kf-load-all:hover,
+.kf-load-all:focus {
+  background: #111827;
+  outline: none;
+}
+
+.kf-load-all:active {
+  transform: scale(0.98);
+}
+
+.kf-empty {
+  padding: 20px;
+  background: #ffffff;
+  text-align: center;
+  color: #4b5563;
+  border: 1px solid #e5e7eb;
+}
+
 /* Små skjermer */
 @media (max-width: 480px) {
   .kf-header { padding: 12px 14px; }
