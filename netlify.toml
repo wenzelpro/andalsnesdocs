@@ -1,0 +1,22 @@
+[build]
+  publish = "."
+  command = ""
+
+# Sørger for at widgeten kan lastes inn via iframe fra andre domener
+[[headers]]
+  for = "/kraftfondet.js"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300"
+
+[[headers]]
+  for = "/kraftfondet.css"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300"
+
+[[headers]]
+  for = "/kraftfondet/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300"
