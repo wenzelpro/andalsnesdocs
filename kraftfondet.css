@@ -110,6 +110,143 @@ body, #kraftfondet-widget {
 .kf-content p { margin: 0.3rem 0; }
 .kf-content strong { color: #111827; }
 
+.kf-report {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.kf-report-button {
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  color: #4b5563;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 999px;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.kf-report-button:hover,
+.kf-report-button:focus {
+  background: #1f2937;
+  color: #ffffff;
+  border-color: #1f2937;
+  outline: none;
+}
+
+.kf-report-button:disabled,
+.kf-report-button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.kf-report-form {
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid #e5e7eb;
+  padding: 16px;
+  background: #f9fafb;
+  box-shadow: 0 4px 12px rgba(17, 24, 39, 0.08);
+  border-radius: 8px;
+}
+
+.kf-report-field {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  color: #1f2937;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.kf-report-input,
+.kf-report-textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  font-size: 0.9rem;
+  font-family: inherit;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.kf-report-input:focus,
+.kf-report-textarea:focus {
+  border-color: #1f2937;
+  outline: none;
+  box-shadow: 0 0 0 1px #1f2937 inset;
+}
+
+.kf-report-textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.kf-report-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.kf-report-cancel,
+.kf-report-submit {
+  border: none;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.kf-report-cancel {
+  background: transparent;
+  color: #4b5563;
+}
+
+.kf-report-cancel:hover,
+.kf-report-cancel:focus {
+  background: #e5e7eb;
+  color: #111827;
+  outline: none;
+}
+
+.kf-report-submit {
+  background: #1f2937;
+  color: #ffffff;
+}
+
+.kf-report-submit:hover,
+.kf-report-submit:focus {
+  background: #111827;
+  outline: none;
+}
+
+.kf-report-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.kf-report-feedback {
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+
+.kf-report-feedback--success {
+  color: #047857;
+}
+
+.kf-report-feedback--error {
+  color: #b91c1c;
+}
+
+.kf-report-feedback--info {
+  color: #2563eb;
+}
+
 /* Feilboks */
 .kf-error {
   margin: 20px 0;

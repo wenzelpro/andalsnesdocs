@@ -1,6 +1,7 @@
 (() => {
   const root = document.getElementById("kraftfondet-widget");
   const manifestUrl = root?.dataset?.manifest;
+  const slackWebhookUrl = root?.dataset?.slackWebhook?.trim();
   const acc = document.getElementById("kf-accordion");
   const searchInput = document.getElementById("kf-search");
   const errorBox = document.getElementById("kf-error");
@@ -150,6 +151,8 @@
       renderParagraph("Stemmegivning", stemmegivning),
     ].filter(Boolean).join("");
 
+    attachReportControls({ content, item, slackWebhookUrl });
+
     // Kun én åpen av gangen
     header.addEventListener("click", () => {
       document.querySelectorAll("#kf-accordion .kf-content").forEach(c => {
@@ -157,11 +160,13 @@
           c.style.display = "none";
           const h = c.previousElementSibling;
           if (h?.classList?.contains("kf-header")) h.setAttribute("aria-expanded", "false");
+          hideReportUI(c);
         }
       });
       const open = content.style.display === "block";
       content.style.display = open ? "none" : "block";
       header.setAttribute("aria-expanded", String(!open));
+      if (open) hideReportUI(content);
     });
 
     itemEl.append(header, content);
@@ -258,5 +263,213 @@
       vedtak?.innstilling, vedtak?.vedtak, prosjektbeskrivelse?.tekst,
       ...(Array.isArray(budsjett?.punkter) ? budsjett.punkter.map(p => `${p.tittel} ${p.verdi}`) : [])
     ].filter(Boolean).join(" ").toLowerCase();
+  }
+
+  function hideReportUI(content) {
+    if (!content) return;
+    content.querySelectorAll(".kf-report-form").forEach(form => {
+      form.setAttribute("hidden", "");
+      const feedback = form.querySelector(".kf-report-feedback");
+      if (feedback) feedback.hidden = true;
+    });
+  }
+
+  function attachReportControls({ content, item, slackWebhookUrl }) {
+    if (!content) return;
+
+    const reportWrapper = el("div", "kf-report");
+    const reportButton = el("button", "kf-report-button", "Rapporter feil", { type: "button" });
+
+    if (!slackWebhookUrl) {
+      reportButton.disabled = true;
+      reportButton.title = "Ingen Slack-webhook konfigurert.";
+    }
+
+    reportWrapper.appendChild(reportButton);
+    content.appendChild(reportWrapper);
+
+    const reportUI = createReportForm(item);
+    reportWrapper.appendChild(reportUI.form);
+
+    reportButton.addEventListener("click", ev => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      toggleForm();
+    });
+
+    reportUI.cancelButton.addEventListener("click", ev => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      hideForm();
+    });
+
+    reportUI.form.addEventListener("click", ev => ev.stopPropagation());
+
+    reportUI.form.addEventListener("submit", async ev => {
+      ev.preventDefault();
+      ev.stopPropagation();
+
+      if (!slackWebhookUrl) {
+        showFeedback("Slack-webhook mangler, kunne ikke sende.", "error");
+        return;
+      }
+
+      const sender = reportUI.senderInput.value.trim();
+      const description = reportUI.descriptionInput.value.trim();
+      const reference = reportUI.referenceInput.value.trim();
+
+      if (!description) {
+        showFeedback("Beskrivelse kan ikke være tom.", "error");
+        reportUI.descriptionInput.focus();
+        return;
+      }
+
+      reportUI.submitButton.disabled = true;
+      showFeedback("Sender …", "info");
+
+      try {
+        const payload = buildSlackPayload({ item, sender, description, reference });
+        const res = await fetch(slackWebhookUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+
+        if (!res.ok) {
+          throw new Error(`Slack svarte med status ${res.status}`);
+        }
+
+        reportUI.form.reset();
+        reportUI.senderInput.value = "";
+        reportUI.descriptionInput.value = "";
+        reportUI.referenceInput.value = buildReferenceValue(item);
+        showFeedback("Takk! Meldingen ble sendt.", "success");
+      } catch (err) {
+        showFeedback(`Kunne ikke sende meldingen: ${err.message}`, "error");
+      } finally {
+        reportUI.submitButton.disabled = false;
+      }
+    });
+
+    function toggleForm() {
+      const willShow = reportUI.form.hasAttribute("hidden");
+      if (willShow) {
+        reportUI.form.removeAttribute("hidden");
+        reportUI.senderInput.focus();
+      } else {
+        hideForm();
+      }
+    }
+
+    function hideForm(skipFocus = false) {
+      reportUI.form.setAttribute("hidden", "");
+      reportUI.feedback.hidden = true;
+      if (!skipFocus) reportButton.focus();
+    }
+
+    function showFeedback(message, type) {
+      reportUI.feedback.textContent = message;
+      reportUI.feedback.hidden = false;
+      reportUI.feedback.className = `kf-report-feedback kf-report-feedback--${type}`;
+    }
+  }
+
+  function createReportForm(item) {
+    const form = el("form", "kf-report-form");
+    form.setAttribute("hidden", "");
+
+    const senderField = createField({
+      label: "Avsenders navn",
+      name: "sender",
+      type: "text",
+      placeholder: "Valgfritt",
+    });
+
+    const descriptionField = createTextareaField({
+      label: "Beskrivelse av feilen",
+      name: "description",
+      required: true,
+    });
+
+    const referenceField = createField({
+      label: "Referanse",
+      name: "reference",
+      type: "text",
+      value: buildReferenceValue(item),
+    });
+
+    form.append(senderField.wrapper, descriptionField.wrapper, referenceField.wrapper);
+
+    const actions = el("div", "kf-report-actions");
+    const cancelButton = el("button", "kf-report-cancel", "Avbryt", { type: "button" });
+    const submitButton = el("button", "kf-report-submit", "Send", { type: "submit" });
+    actions.append(cancelButton, submitButton);
+    form.appendChild(actions);
+
+    const feedback = el("div", "kf-report-feedback");
+    feedback.hidden = true;
+    form.appendChild(feedback);
+
+    return {
+      form,
+      cancelButton,
+      submitButton,
+      feedback,
+      senderInput: senderField.input,
+      descriptionInput: descriptionField.input,
+      referenceInput: referenceField.input,
+    };
+  }
+
+  function createField({ label, name, type = "text", value = "", placeholder = "", required = false }) {
+    const wrapper = el("label", "kf-report-field");
+    wrapper.textContent = label;
+
+    const input = el("input", "kf-report-input");
+    input.name = name;
+    input.type = type;
+    input.value = value ?? "";
+    input.placeholder = placeholder;
+    if (required) input.required = true;
+
+    wrapper.appendChild(input);
+    return { wrapper, input };
+  }
+
+  function createTextareaField({ label, name, required = false }) {
+    const wrapper = el("label", "kf-report-field");
+    wrapper.textContent = label;
+
+    const textarea = document.createElement("textarea");
+    textarea.className = "kf-report-textarea";
+    textarea.name = name;
+    textarea.rows = 3;
+    if (required) textarea.required = true;
+
+    wrapper.appendChild(textarea);
+    return { wrapper, input: textarea };
+  }
+
+  function buildReferenceValue(item) {
+    const { sak = {} } = item || {};
+    const parts = [sak.referanse, sak.søker, sak.type, sak.dato]
+      .map(v => (v == null ? "" : String(v).trim()))
+      .filter(Boolean);
+    return parts.join(" · ");
+  }
+
+  function buildSlackPayload({ item, sender, description, reference }) {
+    const { sak = {}, vedtak = {} } = item || {};
+    const lines = [
+      "*Ny feilrapport*",
+      `*Søker:* ${sak.søker ?? "Ukjent"}`,
+      `*Type:* ${sak.type ?? "Ukjent"}`,
+      `*Dato:* ${sak.dato ?? "Ukjent"}`,
+      `*Referanse:* ${reference || sak.referanse || "Ukjent"}`,
+      `*Vedtak:* ${vedtak?.vedtak ?? "Ikke oppgitt"}`,
+      `*Avsender:* ${sender || "Ikke oppgitt"}`,
+      `*Beskrivelse:* ${description || "Ikke oppgitt"}`,
+    ];
+    return { text: lines.join("\n") };
   }
 })();
