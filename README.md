@@ -35,6 +35,23 @@ Hvis du heller vil injisere widgeten direkte i siden, trenger du både markup, s
 - `data-manifest` peker til JSON-manifestet som listes opp i widgeten. Endre adressen hvis du har en egen manifest-fil.
 - Scriptet forventer at elementene over finnes i DOM-en. Hvis de mangler vil widgeten ikke initialiseres riktig.
 
+### Aktivere "Rapporter feil" med Slack-webhook
+
+Widgeten støtter et valgfritt rapporteringsskjema som sender innmeldinger til en Slack-kanal. Legg til en
+`data-slack-webhook`-attributt på rot-elementet og pek på din innkommende webhook-URL fra Slack. Knappen vises alltid,
+men er deaktivert hvis attributten mangler eller er tom.
+
+```html
+<div id="kraftfondet-widget"
+     data-manifest="https://wenzelpro.github.io/andalsnesdocs/kraftfondet/manifest.json"
+     data-slack-webhook="https://hooks.slack.com/services/XXX/YYY/ZZZ">
+  …
+</div>
+```
+
+Når en bruker sender inn skjemaet, mottar Slack-webhooken en JSON-payload med de viktigste feltene fra saken som
+akkurat er åpen, sammen med avsenderens navn og beskrivelse.
+
 ## Lokalt eksempel
 Åpne `index.html` i nettleseren for å se widgeten i bruk og for å teste søk, tastaturnavigasjon og dyp-lenking.
 
