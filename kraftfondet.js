@@ -177,6 +177,7 @@
       vedtak?.innstilling, vedtak?.vedtak, prosjektbeskrivelse?.tekst,
       ...(Array.isArray(budsjett?.punkter)
         ? budsjett.punkter
+            .filter(hasRenderableBudgetValue)
             .map(p => [p?.tittel, p?.verdi]
               .map(v => v == null ? "" : String(v).trim())
               .filter(Boolean)
@@ -225,11 +226,11 @@
     const items = points
       .map(point => {
         const title = String(point?.tittel ?? "").trim();
-        const amount = String(point?.verdi ?? "").trim();
-        if (!title && !amount) return "";
+        const amount = getBudgetAmount(point);
+        if (!amount || isZeroAmount(amount)) return "";
         const parts = [];
         if (title) parts.push(`<strong>${escapeHtml(title)}:</strong>`);
-        if (amount) parts.push(escapeHtml(amount));
+        parts.push(escapeHtml(amount));
         return `<li>${parts.join(" ")}</li>`;
       })
       .filter(Boolean);
@@ -261,8 +262,32 @@
     return [
       sak.søker, sak.type, sak.referanse, stemmegivning,
       vedtak?.innstilling, vedtak?.vedtak, prosjektbeskrivelse?.tekst,
-      ...(Array.isArray(budsjett?.punkter) ? budsjett.punkter.map(p => `${p.tittel} ${p.verdi}`) : [])
+      ...(Array.isArray(budsjett?.punkter)
+        ? budsjett.punkter
+            .filter(hasRenderableBudgetValue)
+            .map(p => `${p.tittel} ${p.verdi}`)
+        : [])
     ].filter(Boolean).join(" ").toLowerCase();
+  }
+
+  function getBudgetAmount(point) {
+    const value = point?.verdi;
+    return value == null ? "" : String(value).trim();
+  }
+
+  function hasRenderableBudgetValue(point) {
+    const amount = getBudgetAmount(point);
+    return Boolean(amount) && !isZeroAmount(amount);
+  }
+
+  function isZeroAmount(amount) {
+    const numeric = amount
+      .replace(/\s+/g, "")
+      .replace(/[^0-9,.-]/g, "")
+      .replace(/,/g, ".");
+    if (!numeric) return false;
+    const parsed = parseFloat(numeric);
+    return Number.isFinite(parsed) && parsed === 0;
   }
 
   function hideReportUI(content) {
